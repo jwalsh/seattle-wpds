@@ -1,0 +1,20 @@
+<head>
+  <style>
+    .example {
+    -moz-user-focus: none;
+    /* it doesn't seem to working so we need some workaround */
+    -moz-user-select: none;
+    -moz-user-input: disabled;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <input type="text" onfocus="log('Focus on 1. object')" value="Press tab to focus" />
+    <input type="text" onfocus="log('Focus on 2. object')" class="example" value="This element cannot receive focus" />
+    <input type="text" onfocus="log('Focus on 3. object')"
+           value="Press tab to focus" />
+    <div id="out"></div>
+    <script src="out.js">
+    </script>
+</body>
