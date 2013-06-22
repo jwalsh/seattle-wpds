@@ -1,0 +1,26 @@
+<head>
+  <style>
+    .marquee { 
+    width: 200px; height: 50px; white-space: nowrap;
+    overflow: hidden;
+    overflow-x:-webkit-marquee;
+    -webkit-marquee-direction: forwards;
+    -webkit-marquee-style: scroll;
+    -webkit-marquee-speed: normal;
+    -webkit-marquee-increment: small;
+    -webkit-marquee-repetition: 5;
+    overflow-x: marquee-line;
+    marquee-direction: forward;
+    marquee-style: scroll;
+    marquee-speed: normal;
+    marquee-play-count: 5;
+    }
+  </style>
+  <script src="log.js">
+  </script>
+</head>
+<body>
+  <h2>Marquee scrolls ltr</h2>
+  <div class="marquee">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus elementum, arcu eget egestas dictum, leo mauris sodales urna, luctus condimentum neque massa a dolor. Proin non congue eros, eu dictum ante.</div>
+</body>
+</html>
