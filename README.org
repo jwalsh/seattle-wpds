@@ -37,163 +37,163 @@ Look at validating the properties.
 
 ** CSS review 
 
-[ ] alignment-adjust
-[ ] alignment-baseline
-[ ] all-space-treatment
-[ ] background-blend-mode
-[ ] background-composite
-[ ] baseline-shift
-[ ] binding
-[ ] block-progression
-[ ] box-decoration-break
-[ ] box-snap
-[ ] clip-rule
-[ ] color-correction
-[ ] color-interpolation-filters
-[ ] color-interpolation
-[ ] color-rendering
-[ ] cue-after
-[ ] cue-before
-[ ] cue
-[ ] dominant-baseline
-[ ] drop-initial-after-adjust
-[ ] drop-initial-after-align
-[ ] drop-initial-before-adjust
-[ ] drop-initial-before-align
-[ ] drop-initial-size
-[ ] drop-initial-value
-[ ] fill-opacity
-[ ] fill-rule
-[ ] fill
-[ ] flood-color
-[ ] flood-opacity
-[ ] font-kerning
-[ ] font-language-override
-[ ] font-synthesis
-[ ] font-variant-alternates
-[ ] font-variant-caps
-[ ] font-variant-east-asian
-[ ] font-variant-ligatures
-[ ] font-variant-numeric
-[ ] font-variant-position
-[ ] glyph-orientation-horizontal
-[ ] glyph-orientation-vertical
-[ ] grid-area
-[ ] grid-auto-columns
-[ ] grid-auto-flow
-[ ] grid-auto-rows
-[ ] grid-column-position
-[ ] grid-column-span
-[ ] grid-column
-[ ] grid-definition-columns
-[ ] grid-definition-rows
-[ ] grid-position
-[ ] grid-row-position
-[ ] grid-row-span
-[ ] grid-row
-[ ] grid-span
-[ ] grid-template
-[ ] icon
-[ ] image-orientation
-[ ] image-rendering
-[ ] image-resolution
-[ ] inline-box-align
-[ ] interpret-as
-[ ] isolation
-[ ] kerning-mode
-[ ] kerning-pair-threshold
-[ ] knock-out
-[ ] lighting-color
-[ ] line-box-contain
-[ ] line-feed-treatment
-[ ] line-grid-mode
-[ ] line-grid-progression
-[ ] line-grid
-[ ] line-slack
-[ ] line-snap
-[ ] link
-[ ] marker-end
-[ ] marker-mid
-[ ] marker-start
-[ ] marker
-[x] marquee-direction
-[x] marquee-speed
-[x] marquee-style
-[x] marquee
-[ ] mask-type
-[ ] max-font-size
-[ ] min-font-size
-[ ] mix-blend-mode
-[ ] mix-composite
-[ ] name
-[ ] nav-down
-[ ] nav-index
-[ ] nav-left
-[ ] nav-right
-[ ] nav-up
-[ ] object-position
-[ ] overflow-style
-[ ] pause-after
-[ ] pause-before
-[ ] pause
-[ ] phonemes
-[ ] punctuation-trim
-[ ] resize
-[ ] rest-after
-[ ] rest-before
-[ ] rest
-[ ] ruby-span
-[ ] shape-padding
-[ ] shape-rendering
-[ ] speak-as
-[ ] speak
-[ ] stop-color
-[ ] stop-opacity
-[ ] stroke-dasharray
-[ ] stroke-dashoffset
-[ ] stroke-linecap
-[ ] stroke-linejoin
-[ ] stroke-miterlimit
-[ ] stroke-opacity
-[ ] stroke-width
-[ ] stroke
-[ ] table-baseline
-[ ] text-anchor
-[ ] text-blink
-[ ] text-combine-horizontal
-[ ] text-combine
-[ ] text-height
-[ ] text-justify-trim
-[ ] text-line-through-color
-[ ] text-line-through-mode
-[ ] text-line-through-style
-[ ] text-line-through-width
-[ ] text-line-through
-[ ] text-orientation
-[ ] text-overline-color
-[ ] text-overline-mode
-[ ] text-overline-style
-[ ] text-overline-width
-[ ] text-overline
-[ ] text-script
-[ ] text-underline-color
-[ ] text-underline-mode
-[ ] unicode-range
-[ ] user-focus
-[ ] user-input
-[ ] user-modify
-[ ] vector-effect
-[ ] voice-balance
-[ ] voice-duration
-[ ] voice-family
-[ ] voice-pitch-range
-[ ] voice-pitch
-[ ] voice-rate
-[ ] voice-stress
-[ ] voice-volume
-[ ] white-space-treatment
-[ ] word-break-cjk
-[ ] word-break-inside
+- [ ] alignment-adjust
+- [ ] alignment-baseline
+- [ ] all-space-treatment
+- [ ] background-blend-mode
+- [ ] background-composite
+- [ ] baseline-shift
+- [ ] binding
+- [ ] block-progression
+- [ ] box-decoration-break
+- [ ] box-snap
+- [ ] clip-rule
+- [ ] color-correction
+- [ ] color-interpolation-filters
+- [ ] color-interpolation
+- [ ] color-rendering
+- [ ] cue-after
+- [ ] cue-before
+- [ ] cue
+- [ ] dominant-baseline
+- [ ] drop-initial-after-adjust
+- [ ] drop-initial-after-align
+- [ ] drop-initial-before-adjust
+- [ ] drop-initial-before-align
+- [ ] drop-initial-size
+- [ ] drop-initial-value
+- [ ] fill-opacity
+- [ ] fill-rule
+- [ ] fill
+- [ ] flood-color
+- [ ] flood-opacity
+- [ ] font-kerning
+- [ ] font-language-override
+- [ ] font-synthesis
+- [ ] font-variant-alternates
+- [ ] font-variant-caps
+- [ ] font-variant-east-asian
+- [ ] font-variant-ligatures
+- [ ] font-variant-numeric
+- [ ] font-variant-position
+- [ ] glyph-orientation-horizontal
+- [ ] glyph-orientation-vertical
+- [ ] grid-area
+- [ ] grid-auto-columns
+- [ ] grid-auto-flow
+- [ ] grid-auto-rows
+- [ ] grid-column-position
+- [ ] grid-column-span
+- [ ] grid-column
+- [ ] grid-definition-columns
+- [ ] grid-definition-rows
+- [ ] grid-position
+- [ ] grid-row-position
+- [ ] grid-row-span
+- [ ] grid-row
+- [ ] grid-span
+- [ ] grid-template
+- [ ] icon
+- [ ] image-orientation
+- [ ] image-rendering
+- [ ] image-resolution
+- [ ] inline-box-align
+- [ ] interpret-as
+- [ ] isolation
+- [ ] kerning-mode
+- [ ] kerning-pair-threshold
+- [ ] knock-out
+- [ ] lighting-color
+- [ ] line-box-contain
+- [ ] line-feed-treatment
+- [ ] line-grid-mode
+- [ ] line-grid-progression
+- [ ] line-grid
+- [ ] line-slack
+- [ ] line-snap
+- [ ] link
+- [ ] marker-end
+- [ ] marker-mid
+- [ ] marker-start
+- [ ] marker
+- [x] marquee-direction
+- [x] marquee-speed
+- [x] marquee-style
+- [x] marquee
+- [ ] mask-type
+- [ ] max-font-size
+- [ ] min-font-size
+- [ ] mix-blend-mode
+- [ ] mix-composite
+- [ ] name
+- [ ] nav-down
+- [ ] nav-index
+- [ ] nav-left
+- [ ] nav-right
+- [ ] nav-up
+- [ ] object-position
+- [ ] overflow-style
+- [ ] pause-after
+- [ ] pause-before
+- [ ] pause
+- [ ] phonemes
+- [ ] punctuation-trim
+- [ ] resize
+- [ ] rest-after
+- [ ] rest-before
+- [ ] rest
+- [ ] ruby-span
+- [ ] shape-padding
+- [ ] shape-rendering
+- [ ] speak-as
+- [ ] speak
+- [ ] stop-color
+- [ ] stop-opacity
+- [ ] stroke-dasharray
+- [ ] stroke-dashoffset
+- [ ] stroke-linecap
+- [ ] stroke-linejoin
+- [ ] stroke-miterlimit
+- [ ] stroke-opacity
+- [ ] stroke-width
+- [ ] stroke
+- [ ] table-baseline
+- [ ] text-anchor
+- [ ] text-blink
+- [ ] text-combine-horizontal
+- [ ] text-combine
+- [ ] text-height
+- [ ] text-justify-trim
+- [ ] text-line-through-color
+- [ ] text-line-through-mode
+- [ ] text-line-through-style
+- [ ] text-line-through-width
+- [ ] text-line-through
+- [ ] text-orientation
+- [ ] text-overline-color
+- [ ] text-overline-mode
+- [ ] text-overline-style
+- [ ] text-overline-width
+- [ ] text-overline
+- [ ] text-script
+- [ ] text-underline-color
+- [ ] text-underline-mode
+- [ ] unicode-range
+- [ ] user-focus
+- [ ] user-input
+- [ ] user-modify
+- [ ] vector-effect
+- [ ] voice-balance
+- [ ] voice-duration
+- [ ] voice-family
+- [ ] voice-pitch-range
+- [ ] voice-pitch
+- [ ] voice-rate
+- [ ] voice-stress
+- [ ] voice-volume
+- [ ] white-space-treatment
+- [ ] word-break-cjk
+- [ ] word-break-inside
 
 
 ** Events 
