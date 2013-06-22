@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" /><title>background-position · css · WPD · WebPlatform.org</title>
+<meta name="generator" content="MediaWiki 1.22wmf5" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="WebPlatform Docs (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://docs.webplatform.org/w/api.php?action=rsd" />
+<link rel="copyright" href="/wiki/MediaWiki:Site-terms-of-service" />
+<link rel="alternate" type="application/atom+xml" title="WebPlatform Docs Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="http://docs.webplatform.org/w/load.php?debug=false&amp;lang=en&amp;modules=ext.rtlcite%7Cmediawiki.legacy.commonPrint%2Cshared%7Cskins.webplatform&amp;only=styles&amp;skin=webplatform&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://docs.webplatform.org/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=webplatform&amp;*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: wpwiki:resourceloader:filter:minify-css:7:4e3d3c1e625e8fb6d72c9009a25f9526 */</style>
+
+<script src="http://docs.webplatform.org/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=webplatform&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"css/properties/background-position","wgTitle":"css/properties/background-position","wgCurRevisionId":33696,"wgArticleId":2170,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CSS Properties","CSS"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"css/properties/background-position","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"expandablesearch":false,"footercleanup":false,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"sfgAutocompleteOnAllChars":false,"sfgScriptPath":"/w/extensions/SemanticForms","sfgAutocompleteValues":[],"sfgShowOnSelect":[],"sfgFieldProperties":[],"sfgDependentFields":[],"sfgFormErrorsHeader":"There were errors with your form input; see below.","sfgBlankErrorStr":"cannot be blank","sfgBadURLErrorStr":"must have the correct URL format, starting with \"http\"","sfgBadEmailErrorStr":"must have a valid email address format","sfgBadNumberErrorStr":"must be a valid number","sfgBadDateErrorStr":"must be a valid date","sfgAnonEditWarning":"Warning: You are not logged in. Your IP address will be recorded in this page's edit history.","sfgSaveAndContinueSummary":"Saved using \"Save and continue\" button in form","_US_LETTERS":"letters left","wgNarayamAvailableSchemes":[],"wgNarayamAllSchemes":{"ady":[],"ady-cyrl":[],"ahr":{"ahr":"ext.narayam.rules.ahr","ahr-inscript":"ext.narayam.rules.ahr-inscript"},"am":{"am":"ext.narayam.rules.am"},"as":{"as":"ext.narayam.rules.as","as-avro":"ext.narayam.rules.as-avro","as-bornona":"ext.narayam.rules.as-bornona","as-inscript":"ext.narayam.rules.as-inscript"},"bh":{"bho":"ext.narayam.rules.bho","bho-inscript":"ext.narayam.rules.bho-inscript"},"av":[],"bho":{"bho":"ext.narayam.rules.bho","bho-inscript":"ext.narayam.rules.bho-inscript"},"bn":{"bn-avro":"ext.narayam.rules.bn-avro","bn-inscript":"ext.narayam.rules.bn-inscript","bn-nkb":"ext.narayam.rules.bn-nkb","bn-probhat":"ext.narayam.rules.bn-probhat"},"brx":[],"hne":[],"ce":[],"de":{"de":"ext.narayam.rules.de"},"eo":{"eo":"ext.narayam.rules.eo"},"gom-deva":[],"gu":{"gu":"ext.narayam.rules.gu","gu-inscript":"ext.narayam.rules.gu-inscript"},"he":[],"hi":{"hi":"ext.narayam.rules.hi","hi-bolnagri":"ext.narayam.rules.hi-bolnagri","hi-inscript":"ext.narayam.rules.hi-inscript"},"inh":[],"jv":[],"kbd":[],"kbd-cyrl":[],"ka":{"ka":"ext.narayam.rules.ka"},"kn":{"kn":"ext.narayam.rules.kn","kn-inscript":"ext.narayam.rules.kn-inscript"},"lbe":[],"lez":[],"mai":[],"ml":{"ml":"ext.narayam.rules.ml","ml-inscript":"ext.narayam.rules.ml-inscript"},"mr":{"mr":"ext.narayam.rules.mr","mr-inscript":"ext.narayam.rules.mr-inscript"},"ne":[],"new":[],"or":{"or":"ext.narayam.rules.or","or-lekhani":"ext.narayam.rules.or-lekhani","or-inscript":"ext.narayam.rules.or-inscript"},"pa":{"pa":"ext.narayam.rules.pa","pa-inscript":"ext.narayam.rules.pa-inscript","pa-phonetic":"ext.narayam.rules.pa-phonetic"},"rif":[],"sa":{"sa":"ext.narayam.rules.sa","sa-inscript":"ext.narayam.rules.sa-inscript"},"shi":[],"si":{"si-singlish":"ext.narayam.rules.si-singlish","si-wijesekara":"ext.narayam.rules.si-wijesekara"},"ta":{"ta":"ext.narayam.rules.ta","ta-99":"ext.narayam.rules.ta-99","ta-inscript":"ext.narayam.rules.ta-inscript"},"tcy":[],"te":{"te":"ext.narayam.rules.te","te-inscript":"ext.narayam.rules.te-inscript"},"tkr":[],"ur":[],"ru":[],"sah":[]},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":true,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"webplatform","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0
+,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"useeditwarning":1,"vector-simplesearch":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs102":false,"searchNs103":false,"searchNs106":false,"searchNs107":false,"searchNs108":false,"searchNs109":false,"searchNs200":false,"searchNs201":false,"searchNs202":false,"searchNs203":false,"searchNs3000":false,"searchNs3001":false,"searchNs3010":false,"searchNs3011":false,"searchNs3020":false,"searchNs3021":false,"narayamEnable":true});},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\",
+"patrolToken":false,"watchToken":false});},{},{});
+/* cache key: wpwiki:resourceloader:filter:minify-js:7:b66f15bba35c6f87e093b6183da225b6 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.comments","mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+		<link rel="alternate" type="application/rdf+xml" title="css/properties/background-position" href="/w/index.php?title=Special:ExportRDF/css/properties/background-position&amp;xmlmime=rdf" />
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins/webplatform/csshover.min.htc")}</style><![endif]--><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><!--[if lt IE 9]><script src="http://docs.webplatform.org/w/skins/webplatform/html5shiv.js"></script><![endif]--><meta name="viewport" content="width=device-width"><!--[if lt IE 8]><link rel="stylesheet" href="http://docs.webplatform.org/w/skins/webplatform/ie7.css"><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-css_properties_background-position skin-webplatform action-view">
+			<div id="mw-page-base" class="noprint"></div>
+				<div id="mw-head-base" class="noprint"></div>
+				
+				<!-- header -->
+				<header id="mw-head" class="noprint">
+					<div class="container">
+						
+						<!-- logo -->
+						<div id="p-logo">
+							<a href="/wiki/Main_Page"  title="Visit the main page"></a>
+						</div>
+						<!-- /logo -->
+
+							<div id="p-personal" class="dropdown ">	
+		<a href='/w/index.php?title=Special:UserLogin&returnto=css%2Fproperties%2Fbackground-position' class='' id='pt-login'>Log in</a>	  <ul class="user-dropdown">
+		  <li id="pt-createaccount"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=css%2Fproperties%2Fbackground-position&amp;type=signup">Create account</a></li>	  </ul>
+	</div>
+							
+		<div id="p-search">
+			<h5><label for="searchInput">Search</label></h5>
+			<form action="/w/index.php" id="searchform">
+				<div id="search">
+					<input name="search" placeholder="Search..." title="Search WebPlatform Docs [f]" accesskey="f" id="searchInput" />					<input type="submit" name="fulltext" value=" " title="Search the pages for this text" id="mw-searchButton" class="searchButton" />					<input type='hidden' name="title" value="Special:Search"/>
+				</div>
+			</form>
+		</div>
+	
+<!-- /search -->
+					</div>
+				</header>
+				<!-- /header -->
+				
+				<nav id="sitenav">
+				<div class="container">
+					<ul class="links">
+						<li><a href="http://docs.webplatform.org/wiki/" class="active">DOCS</a></li>
+						<li><a href="http://docs.webplatform.org/wiki/WPD:Editors_Guide">EDITING</a></li>
+						<li><a href="http://talk.webplatform.org/">DISCUSSION</a></li>
+						<li><a href="http://blog.webplatform.org">BLOG</a></li>
+						<li><a href="http://docs.webplatform.org/wiki/WPD:Community">COMMUNITY</a></li>
+						<li><a href="http://project.webplatform.org">ISSUES</a></li>
+					</ul>
+				</div>
+				</nav>
+
+				<!-- content -->
+				<div id="content" class="mw-body">
+					<div class="container">
+						<a id="top"></a>
+						<div class="tool-area">
+							<div id="hierarchy-menu">
+								<ol id="breadcrumb-info" class="breadcrumbs">
+									<li><a href="http://webplatform.org/">HOME</a></li>
+									<li><a href="/wiki/Main_Page">DOCS</a></li>
+									<li><a href="http://docs.webplatform.org/wiki/css">css</a></li><li><a href="http://docs.webplatform.org/wiki/css/properties">properties</a></li><li><a href="http://docs.webplatform.org/wiki/css/properties/background-position">background-position</a></li>								</ol>
+							</div>
+							
+							<div class="toolbar">
+									<div class="dropdown">
+		<a href="http://docs.webplatform.org/wiki/Special:UserLogin" id="ca-edit" class="highlighted edit button">
+		 	Edit		</a>
+		<ul>
+			<li id="ca-form_edit"><a href="/w/index.php?title=css/properties/background-position&amp;action=formedit">View form</a></li><li id="ca-history"><a href="/w/index.php?title=css/properties/background-position&amp;action=history" rel="archives" title="Past revisions of this page [h]" accesskey="h">History</a></li><li id="ca-view" class="selected"><a href="/wiki/css/properties/background-position" primary="1" redundant="1">View</a></li>		</ul>
+	</div>
+																	<div class="dropdown">
+		<a class="tools button">
+		 	Tools
+		</a>
+		<ul>
+			<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/css/properties/background-position" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li><a href="/wiki/Special:Browse/css-2Fproperties-2Fbackground-2Dposition" title="Special:Browse/css-2Fproperties-2Fbackground-2Dposition">Browse properties</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/css/properties/background-position" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="ca-talk" class="new"><a href="/w/index.php?title=Talk:css/properties/background-position&amp;action=edit&amp;redlink=1" primary="1" context="talk" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li><li id="n-help"><a href="/wiki/Help:Contents" title="The place to find out">Help</a></li>		</ul>
+	</div>
+							</div>
+						</div>
+						<div id="page">
+						  <div id="page-content">
+																
+								<div id="main-content">
+									 <div id="mw-js-message" style="display:none;"></div>
+									 									 <!-- sitenotice -->
+									 <div id="siteNotice"><script>document.write("\u003Cdiv id=\"localNotice\" lang=\"en\" dir=\"ltr\"\u003E\u003Cdiv class=\"note\" id=\"alpha-notice\"\u003E\n\u003Cp\u003E\u003Cb\u003EWeb Platform Docs is currently in \u003Ca href=\"/wiki/WPD:FAQ\" title=\"WPD:FAQ\"\u003Ealpha\u003C/a\u003E. Join our community of contributors and help us reach \u003C/b\u003Ebeta\u003Ci\u003E! \u003C/i\u003E\n\u003Cbr /\u003E\nSee the \u003Ca href=\"/wiki/WPD:Editors_Guide\" title=\"WPD:Editors Guide\"\u003EEditor's Guide\u003C/a\u003E to learn how to get involved.\n\u003C/p\u003E\n\u003Cp class=\"campaign\"\u003E\nAre you skilled in CSS? Please help us reach our goal of \u003Cbr /\u003E complete CSS  property articles by July in our weekly  \u003Ca rel=\"nofollow\" class=\"external text\" href=\"http://docs.webplatform.org/wiki/Meta:web_platform_wednesday?pk_campaign=sitenotice\u0026amp;pk_kwd=cssbeta\"\u003EWeb Platform Wednesday\u003C/a\u003E!\n\u003C/p\u003E\n\u003C/div\u003E\n\u003C/div\u003E");</script></div>
+									 <!-- /sitenotice -->
+									 									 <!-- firstHeading -->
+									 <h1 id="firstHeading" class="firstHeading"><span dir="auto">background-position</span></h1>
+									 <!-- /firstHeading -->
+
+									 <!--  -->
+
+									 <!-- subtitle -->
+									 <div id="contentSub"><span class="subpages">&lt; <a href="/wiki/css" title="css">css</a>&lrm; | <a href="/wiki/css/properties" title="css/properties">properties</a></span></div>
+									 <!-- /subtitle -->
+						
+									 <!-- bodyContent -->
+									 <div id="bodyContent">
+
+										  										  
+										  										  
+										  										  <!-- jumpto -->
+										  <div id="jump-to-nav" class="mw-jump">
+												Jump to: <a href="#mw-head">navigation</a>,
+												<a href="#p-search">search</a>
+										  </div>
+										  <!-- /jumpto -->
+										  										  
+
+										  <!-- bodycontent -->
+										  <div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div id="commentsDialog" class="comments-hidden" style="display:none"><ul id="tab-links"><li><a class="comments-dialog-link" id="blockcomments-link" href="#blockcomments-container">Comments from section</a></li><li><a class="comments-dialog-link" id="allcomments-link" href="#allcomments">All comments</a></li><li><a class="comments-dialog-link" id="help-link" href="#help">Help</a></li></ul><div id="blockcomments-container"><div id="blockcomments"></div><div id="blockcomments-form"><div class="c-form-message">WebPlatform Docs welcomes <b>all comments</b>.  If you want to comment, please <a href="http://docs.webplatform.org/w/index.php?title=Special:UserLogin/signup&amp;returnto=css%2Fproperties%2Fbackground-position">register</a> or <a href="http://docs.webplatform.org/w/index.php?title=Special:UserLogin&amp;returnto=css%2Fproperties%2Fbackground-position">log in</a>. It is free.</div>
+</div></div><div id="allcomments"></div><div id="help"><p>This tool helps to make and review comments inline.
+</p>
+<h2><span class="mw-headline" id="How_to_Use">How to Use</span></h2>
+<p><i>insert instructions, with images, here</i>
+</p>
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:1354-0!*!*!*!*!*!* and timestamp 20130622090845 -->
+</div></div><h1><span class="mw-headline" id="background-position">background-position</span></h1>
+<div id="flags"></div>
+<p><br />
+<span class="standardization_status">W3C Candidate Recommendation</span>
+</p>
+<h2><span class="mw-headline" id="Summary">Summary</span></h2>
+<p><code>background-position</code> allows you to set the placement of a <code>background-image</code> on the element it is applied to. <code>background-position</code> generally takes two values, which set the horizontal and vertical position of the background image inside the element.
+</p>
+<h2><span class="mw-headline" id="Overview_table">Overview table</span></h2>
+<table class="wikitable overview_table">
+<tr>
+<th> <a href="/wiki/css/concepts/initial_value" title="css/concepts/initial value"> Initial value</a>
+</th>
+<td> <code>0% 0%</code>
+</td></tr>
+<tr>
+<th> Applies to
+</th>
+<td> All elements
+</td></tr>
+<tr>
+<th> <a href="/wiki/css/concepts/inherited" title="css/concepts/inherited"> Inherited</a>
+</th>
+<td> No
+</td></tr>
+<tr>
+<th> Media
+</th>
+<td> <a href="/w/index.php?title=visual&amp;action=edit&amp;redlink=1" class="new" title="visual (page does not exist)">visual</a>
+</td></tr>
+<tr>
+<th> <a href="/wiki/css/concepts/computed_value" title="css/concepts/computed value"> Computed value</a>
+</th>
+<td> A list, each item consisting of: two keywords representing the origin and two offsets from that origin, each given as an absolute length (if given a &lt;length&gt;), otherwise as a percentage.
+</td></tr>
+<tr>
+<th> Animatable
+</th>
+<td> Yes
+</td></tr>
+<tr>
+<th> <a href="/wiki/css/concepts/cssom" title="css/concepts/cssom"> CSS Object Model Property</a>
+</th>
+<td> <code>backgroundPosition</code>
+</td></tr></table>
+<h2><span class="mw-headline" id="Syntax">Syntax</span></h2>
+<ul>
+	<li>
+
+<code>background-position: 30% 15%, 40% 80%, 10px 10px</code>
+</li>
+	<li>
+
+<code>background-position: bottom 10px right 15px</code>
+</li>
+	<li>
+
+<code>background-position: 20px 40px</code>
+</li>
+	<li>
+
+<code>background-position: 30% 15%</code>
+</li>
+	<li>
+
+<code>background-position: left top</code>
+</li>
+	<li>
+
+<code>background-position: 30%</code>
+</li>
+</ul>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Values">Values</span></h2>
+<div class="css-property">
+<dl><dt><b>20px 40px</b>
+</dt><dd><i>Any standard CSS units are acceptable as <code>background-position</code> values: px, ems, rems, mm, cm etc. Note that unit values specify the distance the top left corner of the background image is away from the top left corner of the element. For more details on these units, read <a href="/wiki/css/data_types/length" title="css/data types/length">Length units</a>.</i>
+</dd></dl>
+</div>
+<div class="css-property">
+<dl><dt><b>30% 15%</b>
+</dt><dd><i>Percentages are acceptable for <code>background-position</code> values, and specify percentages of the overall width and height of the element in question. Note that percentage values specify the distance the top left corner of the background image is away from the top left corner of the element. For more details on percentages, read <a href="/wiki/css/data_types/numeric" title="css/data types/numeric">Numeric units</a>.</i>
+</dd></dl>
+</div>
+<div class="css-property">
+<dl><dt><b>left top</b>
+</dt><dd><i><code>background-position</code> can also be expressed as keywords: left top, top, right top, left, center, right, left bottom, bottom, right bottom. These values do not relate specifically to the position of the top left hand corner of the background image, but rather the overall position of the background image inside the element. So for example, a value of <code>right top</code> will make the background image site flush to the top and right sides of the element it is applied to; the top left corner </i>won't<i> be positioned at the top right of the element!</i>
+</dd></dl>
+</div>
+<div class="css-property">
+<dl><dt><b>30%</b>
+</dt><dd><i>If only a single value is included, that is taken as the horizontal value, and the vertical value is set as <code>center</code>.</i>
+</dd></dl>
+</div>
+<div class="css-property">
+<dl><dt><b>30% 15%, 40% 80%, 10px 10px</b>
+</dt><dd><i>If you have applied multiple background images to an element, you can give each background image a different position by specifying multiple background position values delimited by commas. The values supplied will cycle so that all images are given a <code>background-position</code>, for example if four background images are specified and only two position values, position 1 will be applied to images 1 and 3, and position 2 to images 2 and 4.</i>
+</dd></dl>
+</div>
+<div class="css-property">
+<dl><dt><b>bottom 10px right 15px</b>
+</dt><dd><i>CSS3 includes the new four value <code>background-position</code> syntax, which allows you to choose which sides of the element you are positioning the background image relative to (values 1 and 3), and then the distance away from those sides (values 2 and 4). So this example says that you want to position the background image 10 pixels from the bottom of the element, and 15 pixels from the right. If you miss out one of the offset values, the other is assumed to be 0.</i>
+</dd></dl>
+</div>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Examples">Examples</span></h2>
+<p>A simple set of five divs.
+</p>
+<div class="example" style="position:relative">
+<p><span class="language">HTML</span>
+</p>
+<pre>
+&lt;div class="one"&gt;One&lt;/div&gt;
+&lt;div class="two"&gt;Two&lt;/div&gt;
+&lt;div class="three"&gt;Three&lt;/div&gt;
+&lt;div class="four"&gt;Four&lt;/div&gt;
+&lt;div class="five"&gt;Five&lt;/div&gt;
+</pre>
+</div>
+<p><a rel="nofollow" class="external text" href="http://chrisdavidmills.github.com/basic-background-position/">View live example</a>This CSS applies the same background image and basic styling to each div, but then each div is given a different background position to vary where the background image is placed.
+</p>
+<div class="example" style="position:relative">
+<p><span class="language">CSS</span>
+</p>
+<pre>
+div {
+  background-image: url(images/icon.png);
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  font-size: 16px;
+  letter-spacing: -1px;
+  width: 200px;
+  height: 100px;
+  margin-right: 10px;
+  border: 1px solid #aaa;
+  float: left;
+  line-height: 100px;
+  text-align: center;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px black;
+  box-shadow: 2px 2px 5px #ccc;
+  padding-top: 2px;
+}
+
+ 
+.one {
+  background-position: top left; /* positioned at the top left of the element */
+}
+
+.two {
+  background-position: 2rem 1rem; /* positioned 2rems from the left of the element, and 1rem from the top */
+}
+
+.three {
+  background-position: 40% 80%; /* positioned 40% of the element's width away from the left side, and 80% of the element's height down from the top */
+}
+
+.four {
+  background-position: 30px; /* positioned 30px from the left of the element, and vertically centered (the assumed value when no second value is specified) */
+}
+
+.five {
+  background-position: bottom 30px right 50px; /* positioned 30px from the bottom of the element and 50px from the right */
+}
+</pre>
+</div>
+<p>An outer container div with several inner divs.
+</p>
+<div class="example" style="position:relative">
+<p><span class="language">HTML</span>
+</p>
+<pre>
+&lt;div id="outer"&gt;
+    &lt;div id="save"&gt;&lt;/div&gt;
+    &lt;div id="settings"&gt;&lt;/div&gt;
+    &lt;div id="people"&gt;&lt;/div&gt;
+    &lt;div id="search"&gt;&lt;/div&gt;
+    &lt;div id="cancel"&gt;&lt;/div&gt;
+    &lt;div id="ok"&gt;&lt;/div&gt;
+    &lt;div id="back"&gt;&lt;/div&gt;
+    &lt;div id="forward"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+</pre>
+</div>
+<p><a rel="nofollow" class="external text" href="http://chrisdavidmills.github.com/css-sprites-example/">View live example</a>Every inner div is given the same basic styling, and has the same background image applied to it. Each individual div is then given different top and left values to position it in a different place, and a different background-position value to display a different sprite. Each sprite is 128 x 128 px, and the inners divs are set to 128 x 128 px in size, so only a single sprite will be displayed at once by each of them. You need to get the background positions right, so that a whole sprite is displayed, not	a part of two sprites.
+</p>
+<div class="example" style="position:relative">
+<p><span class="language">CSS</span>
+</p>
+<pre>
+body &gt; div { /* Basic styling for the outer container div */
+  width: 1024px;
+  height: 640px;
+  margin&#160;: 5rem auto;
+  background: -webkit-linear-gradient(top right, rgba(0,0,0,0),rgba(0,0,0,0.4));
+  background: -moz-linear-gradient(top right, rgba(0,0,0,0),rgba(0,0,0,0.4));
+  background: -ms-linear-gradient(top right, rgba(0,0,0,0),rgba(0,0,0,0.4));
+  background: -o-linear-gradient(top right, rgba(0,0,0,0),rgba(0,0,0,0.4));
+  background: linear-gradient(top right, rgba(0,0,0,0),rgba(0,0,0,0.4));
+  background-color: #ccc;
+  border-radius: 64px;
+  box-shadow: 0px 0px 30px black;
+  position: relative;
+}
+	  
+div div { /* all the inner divs are given the same width and height, background image, and absolute positioning */
+  width: 128px;
+  height: 128px;
+  position: absolute;
+  background: url(sprites.png);
+}
+	  
+#save { /* each individual div is then given different top and left values to position it in a different place,
+                  and a different background-position value to display a different sprite. Each sprite is 128 x 128 px, and 
+	the inners divs are set to 128 x 128 px in size, so only a single sprite will be displayed at once by
+	each of them. You need to get the background positions right, so that a whole sprite is displayed, not
+	a part of two sprites  */
+  top: 64px;
+  left: 64px;
+  background-position: 0px 0px;
+}
+	  
+#settings {
+  top: 192px;
+  left: 192px;
+  background-position: -128px 0px;
+}
+
+#people {
+  top: 320px;
+  left: 448px;
+  background-position: -256px 0px;
+}
+
+#search {
+  top: 320px;
+  left: 64px;
+  background-position: -384px 0px;
+}
+
+#cancel {
+  top: 448px;
+  left: 576px;
+  background-position: -512px 0px;
+}
+
+#ok {
+  top: 448px;
+  left: 704px;
+  background-position: -640px 0px;
+}
+
+#back {
+  top: 192px;
+  left: 832px;
+  background-position: -768px 0px;
+}
+
+#forward {
+  top: 320px;
+  left: 832px;
+  background-position: -896px 0px;
+}
+</pre>
+</div>
+<h2><span class="mw-headline" id="Usage">Usage</span></h2>
+<ul><li> <code>background-position</code> has good support across browsers. Be aware however that some <a href="/wiki/css/data_types/length" title="css/data types/length">CSS data types</a> are recent additions to the language and are not supported across older browsers.
+</li><li> CSS sprites is a very common technique used to display multiple small images on a web page while cutting down on file size and HTTP requests. The images in question are all stored in a single image file which is applied to multiple different elements on the page; different parts of that file are then displayed by varying the <code>background-position</code> values. See example 2 for this in action.
+</li><li> The four value syntax is not supported very widely across browsers.
+</li></ul>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Related_specifications">Related specifications</span></h2>
+<table class="wikitable relatedspecs">
+
+<tr>
+<th> Specification </th>
+<th> Status </th>
+<th> Related Changes
+</th></tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.w3.org/TR/CSS2/colors.html">CSS 2.1 Colors and Backgrounds</a> </td>
+<td> W3C Recommendation </td>
+<td>
+</td></tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.w3.org/TR/css3-background/#background-position">CSS Backgrounds and Borders Module Level 3</a> </td>
+<td> W3C Candidate Recommendation </td>
+<td> Can support multiple background positions, for multiple background images; CSS3 also includes new four-value background position syntax (see Values section).
+</td></tr></table>
+<h2><span class="mw-headline" id="Compatibility">Compatibility</span></h2>
+<h3><span class="mw-headline" id="Desktop">Desktop</span></h3>
+<table class="compat-table">
+
+<tr>
+<th> Feature </th>
+<th> Chrome </th>
+<th> Firefox (Gecko) </th>
+<th> Internet Explorer </th>
+<th> Opera </th>
+<th> Safari
+</th></tr>
+<tr>
+<td>Basic support </td>
+<td> 1.0 <div></div> </td>
+<td> 1.0 (1.7 or earlier) <div></div> </td>
+<td> 4.0 <div></div> </td>
+<td> 3.5 <div> </div></td>
+<td> 1.0 (85) <div></div>
+<p><br />
+</p>
+</td></tr>
+<tr>
+<td>Multiple Backgrounds </td>
+<td> 1.0 <div></div> </td>
+<td> 3.6 (1.9.2) <div></div> </td>
+<td> 9.0 <div></div> </td>
+<td> 10.5 <div> </div></td>
+<td> 1.3 (312) <div></div>
+<p><br />
+</p>
+</td></tr>
+<tr>
+<td>Four-value syntax (support for offsets from any edge) </td>
+<td> 25 <div></div> </td>
+<td> 13.0 (13.0) <div></div> </td>
+<td> 9.0 <div></div> </td>
+<td> 10.5 <div> </div></td>
+<td> <span class="unsupported">Unsupported</span> <div></div>
+</td></tr></table>
+<h3><span class="mw-headline" id="Mobile">Mobile</span></h3>
+<table class="wikitable">
+
+<tr>
+<th> Feature </th>
+<th> Android </th>
+<th> BlackBerry </th>
+<th> Chrome for mobile </th>
+<th> Firefox Mobile (Gecko) </th>
+<th> IE Mobile </th>
+<th> Opera Mobile </th>
+<th> Opera Mini </th>
+<th> Safari Mobile
+</th></tr>
+<tr>
+<td>Basic support </td>
+<td> 1.0 <div></div> </td>
+<td> 3.8 <div></div> </td>
+<td> 18.0 <div></div> </td>
+<td> 1.0 (1) <div></div> </td>
+<td> 4.0 <div></div> </td>
+<td> 8.65 <div></div> </td>
+<td> 4.0 <div></div> </td>
+<td> 1.0 <div></div>
+<p><br />
+</p>
+</td></tr>
+<tr>
+<td>Multiple backgrounds </td>
+<td> 1.0 <div></div> </td>
+<td> 3.8 <div></div> </td>
+<td> 18.0 <div></div> </td>
+<td> 1.0 (1.9.2) <div></div> </td>
+<td> 8.0 <div></div> </td>
+<td> 9.5 <div></div> </td>
+<td> 5.0 <div></div> </td>
+<td> 1.0 <div></div>
+<p><br />
+</p>
+</td></tr>
+<tr>
+<td>Four-value syntax (support for offsets from any edge) </td>
+<td> <span class="unsupported">Unsupported</span> <div></div> </td>
+<td> <span class="unsupported">Unsupported</span> <div></div> </td>
+<td> 25.0 <div></div> </td>
+<td> 13.0 (13.0) <div></div> </td>
+<td> 9.0 <div></div> </td>
+<td> 9.5 <div></div> </td>
+<td> 5.0 <div></div> </td>
+<td> <span class="unsupported">Unsupported</span> <div></div>
+</td></tr></table>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<h3><span class="mw-headline" id="Related_articles">Related articles</span></h3>
+<h4><span class="mw-headline" id="Background">Background</span></h4>
+<ul><li> <a href="/wiki/JavaScript_animation" title="JavaScript animation">JavaScript animation</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/cssom/properties/background" title="css/cssom/properties/background">background</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/functions/cross-fade" title="css/functions/cross-fade">CSS cross-fade() function</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/background-attachment" title="css/properties/background-attachment">background-attachment</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/background-clip" title="css/properties/background-clip">background-clip</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/background-color" title="css/properties/background-color">background-color</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/background-image" title="css/properties/background-image">background-image</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/background-origin" title="css/properties/background-origin">background-origin</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <strong class="selflink">background-position</strong>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/background-position-x" title="css/properties/background-position-x">background-position-x</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/background-position-y" title="css/properties/background-position-y">background-position-y</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/background-repeat" title="css/properties/background-repeat">background-repeat</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/background-size" title="css/properties/background-size">background-size</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/mask-image" title="css/properties/mask-image">Mask Images</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/visibility" title="css/properties/visibility">visibility</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/width" title="css/properties/width">width</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/guides/images_in_html" title="guides/images in html">Images in HTML</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/tutorials/using_css_multiple_background" title="tutorials/using css multiple background">Using Multiple Backgrounds</a>
+</li></ul>
+<h4><span class="mw-headline" id="CSS_Attributes">CSS Attributes</span></h4>
+<ul><li> <a href="/wiki/JavaScript_animation" title="JavaScript animation">JavaScript animation</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/background-color" title="css/properties/background-color">background-color</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <strong class="selflink">background-position</strong>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/mask-image" title="css/properties/mask-image">Mask Images</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-emphasis" title="css/properties/text-emphasis">text-emphasis</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-overflow-ellipsis" title="css/properties/text-overflow-ellipsis">text-overflow-ellipsis</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-overflow-mode" title="css/properties/text-overflow-mode">text-overflow-mode</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-rendering" title="css/properties/text-rendering">text-rendering</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/user-select" title="css/properties/user-select">user-select</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/selectors/attributes/equality" title="css/selectors/attributes/equality">equality</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/selectors/attributes/existence" title="css/selectors/attributes/existence">existence</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/selectors/attributes/hyphen" title="css/selectors/attributes/hyphen">hyphen</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/selectors/attributes/prefix" title="css/selectors/attributes/prefix">prefix</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/selectors/attributes/substring" title="css/selectors/attributes/substring">substring</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/selectors/attributes/suffix" title="css/selectors/attributes/suffix">suffix</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/tutorials/using_css_multiple_background" title="tutorials/using css multiple background">Using Multiple Backgrounds</a>
+</li></ul>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="Other_articles">Other articles</span></h3>
+<ul><li> <a href="/wiki/tutorials/using_css_background_images" title="tutorials/using css background images">Using CSS background images</a>
+</li></ul>
+<div class="attribution">
+<p><br />
+</p>
+</div>
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 1752/1000000
+Preprocessor generated node count: 8002/1000000
+Post‐expand include size: 53423/2097152 bytes
+Template argument size: 35020/2097152 bytes
+Highest expansion depth: 9/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:2170-0!*!0!!*!*!* and timestamp 20130621235601 -->
+</div>										  <!-- /bodycontent -->
+										  
+
+										  										  <!-- printfooter -->
+										  <div class="printfooter">
+										  Retrieved from "<a href="http://docs.webplatform.org/w/index.php?title=css/properties/background-position&amp;oldid=33696">http://docs.webplatform.org/w/index.php?title=css/properties/background-position&amp;oldid=33696</a>"										  </div>
+										  <!-- /printfooter -->
+										  
+										  										  <!-- catlinks -->
+										  <div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/Category:CSS_Properties" title="Category:CSS Properties">CSS Properties</a></li><li><a href="/wiki/Category:CSS" title="Category:CSS">CSS</a></li></ul></div></div>										  <!-- /catlinks -->
+										  
+										  										  
+										  <div class="visualClear"></div>
+										  
+										  <!-- debughtml -->
+										  										  <!-- /debughtml -->
+									 </div>
+									 <!-- /bodyContent -->
+								</div>
+								
+								<div class="topics-nav">
+										<ul>
+											<li><a href="http://docs.webplatform.org/wiki/beginners">Beginners</a></li>
+											<li><a href="http://docs.webplatform.org/wiki/concepts">Concepts</a></li>
+											<li><a href="http://docs.webplatform.org/wiki/html">HTML</a></li>
+											<li><a href="http://docs.webplatform.org/wiki/css">CSS</a></li>
+											<li><a href="http://docs.webplatform.org/wiki/concepts/accessibility">Accessibility</a></li>
+											<li><a href="http://docs.webplatform.org/wiki/javascript">JavaScript</a></li>
+											<li><a href="http://docs.webplatform.org/wiki/dom">DOM</a></li>
+											<li><a href="http://docs.webplatform.org/wiki/svg">SVG</a></li>
+										</ul>
+								</div>
+								
+								<!-- /main content -->
+								<div class="clear"></div>
+						  </div>
+						  <!-- /page content -->
+					 </div>
+					 <!-- /page -->
+				</div>
+				<!-- /container -->
+		</div>
+		<!-- /content -->
+
+		<!-- footer -->
+		<footer id="mw-footer">
+		  <div class="container">
+			 <div id="footer-wordmark">
+				<a href="http://docs.webplatform.org/wiki/Template:CC-by-3.0" class="license">
+				  <img src="http://docs.webplatform.org/w/skins/webplatform/images/cc-by-black.svg" 
+						 alt="Content available under CC-BY, except where otherwise noted.">
+				</a>
+
+				<a href="http://webplatform.org/"><span id="footer-title">WebPlatform<span id="footer-title-light">.org</span></span></a>
+
+			 </div>
+
+				 
+				<ul class="stewards">
+					<li class="steward-w3c"><a href="http://webplatform.org/stewards/w3c">W3C</a></li>
+					<li class="steward-adobe"><a href="http://webplatform.org/stewards/adobe">Adobe</a></li>
+					<li class="steward-facebook"><a href="http://webplatform.org/stewards/facebook">facebook</a></li>
+					<li class="steward-google"><a href="http://webplatform.org/stewards/google">Google</a></li>
+					<li class="steward-hp"><a href="http://webplatform.org/stewards/hp">HP</a></li>
+					
+					<li class="steward-intel"><a href="http://webplatform.org/stewards/intel">Intel</a></li>
+					<li class="steward-microsoft"><a href="http://webplatform.org/stewards/microsoft">Microsoft</a></li>
+					<li class="steward-mozilla"><a href="http://webplatform.org/stewards/mozilla">Mozilla</a></li>
+					<li class="steward-nokia"><a href="http://webplatform.org/stewards/nokia">Nokia</a></li>
+					<li class="steward-opera"><a href="http://webplatform.org/stewards/opera">Opera</a></li>
+				</ul>
+			</div>
+		</footer>
+		<!-- /footer -->
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://docs.webplatform.org/w/load.php?debug=false&amp;lang=en&amp;modules=skins.webplatform&amp;only=scripts&amp;skin=webplatform&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["ext.webplatformSectionCommentsSMW","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.page.ready","mediawiki.hidpi","ext.WebPlatformSearchAutocomplete"],null,true);
+}</script>
+<script>
+var wgCommentsObjects = {};
+</script>
+<script src="http://docs.webplatform.org/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=webplatform&amp;*"></script>
+<!-- Served in 0.612 secs. --><!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://stats.webplatform.org/track/" : "http://stats.webplatform.org/track/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://stats.webplatform.org/track/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+	</body>
+	</html>

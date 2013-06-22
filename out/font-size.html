@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" /><title>font-size · css · WPD · WebPlatform.org</title>
+<meta name="generator" content="MediaWiki 1.22wmf5" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="WebPlatform Docs (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://docs.webplatform.org/w/api.php?action=rsd" />
+<link rel="copyright" href="/wiki/MediaWiki:Site-terms-of-service" />
+<link rel="alternate" type="application/atom+xml" title="WebPlatform Docs Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="http://docs.webplatform.org/w/load.php?debug=false&amp;lang=en&amp;modules=ext.rtlcite%7Cmediawiki.legacy.commonPrint%2Cshared%7Cskins.webplatform&amp;only=styles&amp;skin=webplatform&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://docs.webplatform.org/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=webplatform&amp;*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: wpwiki:resourceloader:filter:minify-css:7:4e3d3c1e625e8fb6d72c9009a25f9526 */</style>
+
+<script src="http://docs.webplatform.org/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=webplatform&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"css/properties/font-size","wgTitle":"css/properties/font-size","wgCurRevisionId":33671,"wgArticleId":45,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CSS Properties","CSS"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"css/properties/font-size","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"expandablesearch":false,"footercleanup":false,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"sfgAutocompleteOnAllChars":false,"sfgScriptPath":"/w/extensions/SemanticForms","sfgAutocompleteValues":[],"sfgShowOnSelect":[],"sfgFieldProperties":[],"sfgDependentFields":[],"sfgFormErrorsHeader":"There were errors with your form input; see below.","sfgBlankErrorStr":"cannot be blank","sfgBadURLErrorStr":"must have the correct URL format, starting with \"http\"","sfgBadEmailErrorStr":"must have a valid email address format","sfgBadNumberErrorStr":"must be a valid number","sfgBadDateErrorStr":"must be a valid date","sfgAnonEditWarning":"Warning: You are not logged in. Your IP address will be recorded in this page's edit history.","sfgSaveAndContinueSummary":"Saved using \"Save and continue\" button in form","_US_LETTERS":"letters left","wgNarayamAvailableSchemes":[],"wgNarayamAllSchemes":{"ady":[],"ady-cyrl":[],"ahr":{"ahr":"ext.narayam.rules.ahr","ahr-inscript":"ext.narayam.rules.ahr-inscript"},"am":{"am":"ext.narayam.rules.am"},"as":{"as":"ext.narayam.rules.as","as-avro":"ext.narayam.rules.as-avro","as-bornona":"ext.narayam.rules.as-bornona","as-inscript":"ext.narayam.rules.as-inscript"},"bh":{"bho":"ext.narayam.rules.bho","bho-inscript":"ext.narayam.rules.bho-inscript"},"av":[],"bho":{"bho":"ext.narayam.rules.bho","bho-inscript":"ext.narayam.rules.bho-inscript"},"bn":{"bn-avro":"ext.narayam.rules.bn-avro","bn-inscript":"ext.narayam.rules.bn-inscript","bn-nkb":"ext.narayam.rules.bn-nkb","bn-probhat":"ext.narayam.rules.bn-probhat"},"brx":[],"hne":[],"ce":[],"de":{"de":"ext.narayam.rules.de"},"eo":{"eo":"ext.narayam.rules.eo"},"gom-deva":[],"gu":{"gu":"ext.narayam.rules.gu","gu-inscript":"ext.narayam.rules.gu-inscript"},"he":[],"hi":{"hi":"ext.narayam.rules.hi","hi-bolnagri":"ext.narayam.rules.hi-bolnagri","hi-inscript":"ext.narayam.rules.hi-inscript"},"inh":[],"jv":[],"kbd":[],"kbd-cyrl":[],"ka":{"ka":"ext.narayam.rules.ka"},"kn":{"kn":"ext.narayam.rules.kn","kn-inscript":"ext.narayam.rules.kn-inscript"},"lbe":[],"lez":[],"mai":[],"ml":{"ml":"ext.narayam.rules.ml","ml-inscript":"ext.narayam.rules.ml-inscript"},"mr":{"mr":"ext.narayam.rules.mr","mr-inscript":"ext.narayam.rules.mr-inscript"},"ne":[],"new":[],"or":{"or":"ext.narayam.rules.or","or-lekhani":"ext.narayam.rules.or-lekhani","or-inscript":"ext.narayam.rules.or-inscript"},"pa":{"pa":"ext.narayam.rules.pa","pa-inscript":"ext.narayam.rules.pa-inscript","pa-phonetic":"ext.narayam.rules.pa-phonetic"},"rif":[],"sa":{"sa":"ext.narayam.rules.sa","sa-inscript":"ext.narayam.rules.sa-inscript"},"shi":[],"si":{"si-singlish":"ext.narayam.rules.si-singlish","si-wijesekara":"ext.narayam.rules.si-wijesekara"},"ta":{"ta":"ext.narayam.rules.ta","ta-99":"ext.narayam.rules.ta-99","ta-inscript":"ext.narayam.rules.ta-inscript"},"tcy":[],"te":{"te":"ext.narayam.rules.te","te-inscript":"ext.narayam.rules.te-inscript"},"tkr":[],"ur":[],"ru":[],"sah":[]},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":true,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"webplatform","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0
+,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"useeditwarning":1,"vector-simplesearch":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs102":false,"searchNs103":false,"searchNs106":false,"searchNs107":false,"searchNs108":false,"searchNs109":false,"searchNs200":false,"searchNs201":false,"searchNs202":false,"searchNs203":false,"searchNs3000":false,"searchNs3001":false,"searchNs3010":false,"searchNs3011":false,"searchNs3020":false,"searchNs3021":false,"narayamEnable":true});},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\",
+"patrolToken":false,"watchToken":false});},{},{});
+/* cache key: wpwiki:resourceloader:filter:minify-js:7:b66f15bba35c6f87e093b6183da225b6 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.comments","mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+<style type="text/css">/*<![CDATA[*/
+.source-xml {line-height: normal;}
+.source-xml li, .source-xml pre {
+	line-height: normal; border: 0px none white;
+}
+/**
+ * GeSHi Dynamically Generated Stylesheet
+ * --------------------------------------
+ * Dynamically generated stylesheet for xml
+ * CSS class: source-xml, CSS id: 
+ * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2008 Benny Baumann
+ * (http://qbnz.com/highlighter/ and http://geshi.org/)
+ * --------------------------------------
+ */
+.xml.source-xml .de1, .xml.source-xml .de2 {font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;font-family: monospace, monospace;}
+.xml.source-xml  {font-family:monospace;}
+.xml.source-xml .imp {font-weight: bold; color: red;}
+.xml.source-xml li, .xml.source-xml .li1 {font-weight: normal; vertical-align:top;}
+.xml.source-xml .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
+.xml.source-xml .li2 {font-weight: bold; vertical-align:top;}
+.xml.source-xml .es0 {color: #000099; font-weight: bold;}
+.xml.source-xml .br0 {color: #66cc66;}
+.xml.source-xml .sy0 {color: #66cc66;}
+.xml.source-xml .st0 {color: #ff0000;}
+.xml.source-xml .nu0 {color: #cc66cc;}
+.xml.source-xml .sc-1 {color: #808080; font-style: italic;}
+.xml.source-xml .sc0 {color: #00bbdd;}
+.xml.source-xml .sc1 {color: #ddbb00;}
+.xml.source-xml .sc2 {color: #339933;}
+.xml.source-xml .sc3 {color: #009900;}
+.xml.source-xml .re0 {color: #000066;}
+.xml.source-xml .re1 {color: #000000; font-weight: bold;}
+.xml.source-xml .re2 {color: #000000; font-weight: bold;}
+.xml.source-xml .ln-xtra, .xml.source-xml li.ln-xtra, .xml.source-xml div.ln-xtra {background-color: #ffc;}
+.xml.source-xml span.xtra { display:block; }
+
+/*]]>*/
+</style>		<link rel="alternate" type="application/rdf+xml" title="css/properties/font-size" href="/w/index.php?title=Special:ExportRDF/css/properties/font-size&amp;xmlmime=rdf" />
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins/webplatform/csshover.min.htc")}</style><![endif]--><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><!--[if lt IE 9]><script src="http://docs.webplatform.org/w/skins/webplatform/html5shiv.js"></script><![endif]--><meta name="viewport" content="width=device-width"><!--[if lt IE 8]><link rel="stylesheet" href="http://docs.webplatform.org/w/skins/webplatform/ie7.css"><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-css_properties_font-size skin-webplatform action-view">
+			<div id="mw-page-base" class="noprint"></div>
+				<div id="mw-head-base" class="noprint"></div>
+				
+				<!-- header -->
+				<header id="mw-head" class="noprint">
+					<div class="container">
+						
+						<!-- logo -->
+						<div id="p-logo">
+							<a href="/wiki/Main_Page"  title="Visit the main page"></a>
+						</div>
+						<!-- /logo -->
+
+							<div id="p-personal" class="dropdown ">	
+		<a href='/w/index.php?title=Special:UserLogin&returnto=css%2Fproperties%2Ffont-size' class='' id='pt-login'>Log in</a>	  <ul class="user-dropdown">
+		  <li id="pt-createaccount"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=css%2Fproperties%2Ffont-size&amp;type=signup">Create account</a></li>	  </ul>
+	</div>
+							
+		<div id="p-search">
+			<h5><label for="searchInput">Search</label></h5>
+			<form action="/w/index.php" id="searchform">
+				<div id="search">
+					<input name="search" placeholder="Search..." title="Search WebPlatform Docs [f]" accesskey="f" id="searchInput" />					<input type="submit" name="fulltext" value=" " title="Search the pages for this text" id="mw-searchButton" class="searchButton" />					<input type='hidden' name="title" value="Special:Search"/>
+				</div>
+			</form>
+		</div>
+	
+<!-- /search -->
+					</div>
+				</header>
+				<!-- /header -->
+				
+				<nav id="sitenav">
+				<div class="container">
+					<ul class="links">
+						<li><a href="http://docs.webplatform.org/wiki/" class="active">DOCS</a></li>
+						<li><a href="http://docs.webplatform.org/wiki/WPD:Editors_Guide">EDITING</a></li>
+						<li><a href="http://talk.webplatform.org/">DISCUSSION</a></li>
+						<li><a href="http://blog.webplatform.org">BLOG</a></li>
+						<li><a href="http://docs.webplatform.org/wiki/WPD:Community">COMMUNITY</a></li>
+						<li><a href="http://project.webplatform.org">ISSUES</a></li>
+					</ul>
+				</div>
+				</nav>
+
+				<!-- content -->
+				<div id="content" class="mw-body">
+					<div class="container">
+						<a id="top"></a>
+						<div class="tool-area">
+							<div id="hierarchy-menu">
+								<ol id="breadcrumb-info" class="breadcrumbs">
+									<li><a href="http://webplatform.org/">HOME</a></li>
+									<li><a href="/wiki/Main_Page">DOCS</a></li>
+									<li><a href="http://docs.webplatform.org/wiki/css">css</a></li><li><a href="http://docs.webplatform.org/wiki/css/properties">properties</a></li><li><a href="http://docs.webplatform.org/wiki/css/properties/font-size">font-size</a></li>								</ol>
+							</div>
+							
+							<div class="toolbar">
+									<div class="dropdown">
+		<a href="http://docs.webplatform.org/wiki/Special:UserLogin" id="ca-edit" class="highlighted edit button">
+		 	Edit		</a>
+		<ul>
+			<li id="ca-form_edit"><a href="/w/index.php?title=css/properties/font-size&amp;action=formedit">View form</a></li><li id="ca-history"><a href="/w/index.php?title=css/properties/font-size&amp;action=history" rel="archives" title="Past revisions of this page [h]" accesskey="h">History</a></li><li id="ca-view" class="selected"><a href="/wiki/css/properties/font-size" primary="1" redundant="1">View</a></li>		</ul>
+	</div>
+																	<div class="dropdown">
+		<a class="tools button">
+		 	Tools
+		</a>
+		<ul>
+			<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/css/properties/font-size" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li><a href="/wiki/Special:Browse/css-2Fproperties-2Ffont-2Dsize" title="Special:Browse/css-2Fproperties-2Ffont-2Dsize">Browse properties</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/css/properties/font-size" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="ca-talk" class="new"><a href="/w/index.php?title=Talk:css/properties/font-size&amp;action=edit&amp;redlink=1" primary="1" context="talk" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li><li id="n-help"><a href="/wiki/Help:Contents" title="The place to find out">Help</a></li>		</ul>
+	</div>
+							</div>
+						</div>
+						<div id="page">
+						  <div id="page-content">
+																
+								<div id="main-content">
+									 <div id="mw-js-message" style="display:none;"></div>
+									 									 <!-- sitenotice -->
+									 <div id="siteNotice"><script>document.write("\u003Cdiv id=\"localNotice\" lang=\"en\" dir=\"ltr\"\u003E\u003Cdiv class=\"note\" id=\"alpha-notice\"\u003E\n\u003Cp\u003E\u003Cb\u003EWeb Platform Docs is currently in \u003Ca href=\"/wiki/WPD:FAQ\" title=\"WPD:FAQ\"\u003Ealpha\u003C/a\u003E. Join our community of contributors and help us reach \u003C/b\u003Ebeta\u003Ci\u003E! \u003C/i\u003E\n\u003Cbr /\u003E\nSee the \u003Ca href=\"/wiki/WPD:Editors_Guide\" title=\"WPD:Editors Guide\"\u003EEditor's Guide\u003C/a\u003E to learn how to get involved.\n\u003C/p\u003E\n\u003Cp class=\"campaign\"\u003E\nAre you skilled in CSS? Please help us reach our goal of \u003Cbr /\u003E complete CSS  property articles by July in our weekly  \u003Ca rel=\"nofollow\" class=\"external text\" href=\"http://docs.webplatform.org/wiki/Meta:web_platform_wednesday?pk_campaign=sitenotice\u0026amp;pk_kwd=cssbeta\"\u003EWeb Platform Wednesday\u003C/a\u003E!\n\u003C/p\u003E\n\u003C/div\u003E\n\u003C/div\u003E");</script></div>
+									 <!-- /sitenotice -->
+									 									 <!-- firstHeading -->
+									 <h1 id="firstHeading" class="firstHeading"><span dir="auto">font-size</span></h1>
+									 <!-- /firstHeading -->
+
+									 <!--  -->
+
+									 <!-- subtitle -->
+									 <div id="contentSub"><span class="subpages">&lt; <a href="/wiki/css" title="css">css</a>&lrm; | <a href="/wiki/css/properties" title="css/properties">properties</a></span></div>
+									 <!-- /subtitle -->
+						
+									 <!-- bodyContent -->
+									 <div id="bodyContent">
+
+										  										  
+										  										  
+										  										  <!-- jumpto -->
+										  <div id="jump-to-nav" class="mw-jump">
+												Jump to: <a href="#mw-head">navigation</a>,
+												<a href="#p-search">search</a>
+										  </div>
+										  <!-- /jumpto -->
+										  										  
+
+										  <!-- bodycontent -->
+										  <div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div id="commentsDialog" class="comments-hidden" style="display:none"><ul id="tab-links"><li><a class="comments-dialog-link" id="blockcomments-link" href="#blockcomments-container">Comments from section</a></li><li><a class="comments-dialog-link" id="allcomments-link" href="#allcomments">All comments</a></li><li><a class="comments-dialog-link" id="help-link" href="#help">Help</a></li></ul><div id="blockcomments-container"><div id="blockcomments"></div><div id="blockcomments-form"><div class="c-form-message">WebPlatform Docs welcomes <b>all comments</b>.  If you want to comment, please <a href="http://docs.webplatform.org/w/index.php?title=Special:UserLogin/signup&amp;returnto=css%2Fproperties%2Ffont-size">register</a> or <a href="http://docs.webplatform.org/w/index.php?title=Special:UserLogin&amp;returnto=css%2Fproperties%2Ffont-size">log in</a>. It is free.</div>
+</div></div><div id="allcomments"></div><div id="help"><p>This tool helps to make and review comments inline.
+</p>
+<h2><span class="mw-headline" id="How_to_Use">How to Use</span></h2>
+<p><i>insert instructions, with images, here</i>
+</p>
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:1354-0!*!*!*!*!*!* and timestamp 20130622090845 -->
+</div></div><h1><span class="mw-headline" id="font-size">font-size</span></h1>
+<div id="flags"></div>
+<p><br />
+<span class="standardization_status">W3C Recommendation</span>
+</p>
+<h2><span class="mw-headline" id="Summary">Summary</span></h2>
+<p><code>font-size</code> sets the font size of the text inside the element to which it is applied, and that of its descendants. You can size text using absolute measurements, or measurements relative to the affected element's parent or root elements. <a href="/wiki/guides/css_text_styling_fundamentals" title="guides/css text styling fundamentals">CSS Text Styling Fundamentals</a> provides an overview.
+</p>
+<h2><span class="mw-headline" id="Overview_table">Overview table</span></h2>
+<table class="wikitable overview_table">
+<tr>
+<th> <a href="/wiki/css/concepts/initial_value" title="css/concepts/initial value"> Initial value</a>
+</th>
+<td> <code>medium</code>
+</td></tr>
+<tr>
+<th> Applies to
+</th>
+<td> All elements
+</td></tr>
+<tr>
+<th> <a href="/wiki/css/concepts/inherited" title="css/concepts/inherited"> Inherited</a>
+</th>
+<td> Yes
+</td></tr>
+<tr>
+<th> Media
+</th>
+<td> <a href="/w/index.php?title=visual&amp;action=edit&amp;redlink=1" class="new" title="visual (page does not exist)">visual</a>
+</td></tr>
+<tr>
+<th> <a href="/wiki/css/concepts/computed_value" title="css/concepts/computed value"> Computed value</a>
+</th>
+<td> as specified, but with relative lengths converted into absolute pixel values.
+</td></tr>
+<tr>
+<th> Animatable
+</th>
+<td> Yes
+</td></tr>
+<tr>
+<th> <a href="/wiki/css/concepts/cssom" title="css/concepts/cssom"> CSS Object Model Property</a>
+</th>
+<td> <code>fontSize</code>
+</td></tr></table>
+<h2><span class="mw-headline" id="Syntax">Syntax</span></h2>
+<ul>
+	<li>
+
+<code>font-size: length</code>
+</li>
+	<li>
+
+<code>font-size: absolute keywords</code>
+</li>
+	<li>
+
+<code>font-size: relative keywords</code>
+</li>
+	<li>
+
+<code>font-size: percentage</code>
+</li>
+	<li>
+
+<code>font-size: inherit</code>
+</li>
+</ul>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Values">Values</span></h2>
+<div class="css-property">
+<dl><dt><b>absolute keywords</b>
+</dt><dd><i>A set of keywords indicating predefined font sizes that scale according to font setting preferences or each browser's default values. From small to large, possible values are <b>xx-small</b>, <b>x-small</b>, <b>small</b>, <b>medium</b>, <b>large</b>, <b>x-large</b>, and <b>xx-large</b>.</i>
+</dd></dl>
+</div>
+<div class="css-property">
+<dl><dt><b>relative keywords</b>
+</dt><dd><i>A set of keywords interpreted relative to the parent element's <b>font-size</b> — either <b>smaller</b> or <b>larger</b>.</i>
+</dd></dl>
+</div>
+<div class="css-property">
+<dl><dt><b>length</b>
+</dt><dd><i>An absolute or relative unit value: any of the standard <a href="/wiki/css/data_types/length" title="css/data types/length">css length units</a> are allowed.</i>
+</dd></dl>
+</div>
+<div class="css-property">
+<dl><dt><b>percentage</b>
+</dt><dd><i>A percentage value, indicating a percentage of the parent element's <b>font-size</b>.</i>
+</dd></dl>
+</div>
+<div class="css-property">
+<dl><dt><b>inherit</b>
+</dt><dd><i>the <code>inherit</code> keyword causes the element to adopt its parent element's font size.</i>
+</dd></dl>
+</div>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Examples">Examples</span></h2>
+<p>A selection of examples showing some typical uses of the font-size property.
+</p>
+<div class="example" style="position:relative">
+<p><span class="language">HTML</span>
+</p>
+<pre>
+&lt;p class="example-one"&gt;Example One: We ♥ WebPlatform Docs!&lt;/p&gt;
+&lt;p class="example-two"&gt;Example Two: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, eos, dicta nihil aliquid quia dolores labore nesciunt unde consectetur blanditiis ex eius consequatur qui incidunt voluptatem inventore fugit quos amet!&lt;/p&gt;
+&lt;p class="example-three"&gt;Example Three: Eius, earum unde eum distinctio ex accusamus rem eligendi optio mollitia deleniti? Iure, accusamus, fuga ipsa quas doloremque enim velit sed est earum pariatur ab optio quia molestiae repellendus non.&lt;/p&gt;
+</pre>
+</div>
+<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/5628042">View live example</a>
+</p>
+<div class="example" style="position:relative">
+<p><span class="language">CSS</span>
+</p>
+<pre>
+.example-one {
+	font-size: 1.2em;
+}		
+
+.example-two {
+	font-size: small;
+}
+
+.example-three {
+	font-size: 28px;
+}
+</pre>
+</div>
+<p><a rel="nofollow" class="external text" href="http://code.webplatform.org/gist/5628240">View live example</a>A redefinition of the typical <b>16px</b> browser default font size <b>medium</b> value as <b>10px</b>, followed by a resizing of the text that follows proportionate to that.
+</p>
+<div class="example" style="position:relative">
+<p><span class="language">CSS</span>
+</p>
+<pre>
+html { font-size: 62.5%; } 
+/* 
+16 * 62.5% == 10 
+*/
+
+.example-one { font-size: 3.6rem }   /* 36px */
+.example-two { font-size: 2.4rem }   /* 24px */
+.example-three  { font-size: 1.4rem }   /* 14px */
+</pre>
+</div>
+<h2><span class="mw-headline" id="Usage">Usage</span></h2>
+<p>Keywords such as <b>large</b> and <b>medium</b>, or relative <b>em</b> or percentage units, are generally safer to use than pixel measurements, especially for mobile web browsers that adjust their set of default font sizes for legibility. Otherwise, pixels offer the safest way to specify measurements, since <a href="/w/index.php?title=css/concepts/CSS_pixels&amp;action=edit&amp;redlink=1" class="new" title="css/concepts/CSS pixels (page does not exist)">CSS pixels</a> are adjusted for variations in display pixel density.
+</p><p>While the initial <b>medium</b> size applies widely, browsers apply a default style sheet that modifies it for various semantic elements, boosting the size of headings, for example. Browsers also automatically resize fonts when zooming the page, stepping by values that may not correspond exactly to the zoom factor. Unless disabled using <a href="/w/index.php?title=css/properties/text-size-adjust&amp;action=edit&amp;redlink=1" class="new" title="css/properties/text-size-adjust (page does not exist)"><b>text-size-adjust</b></a>, fonts also resize when tipping between portrait and landscape orientations on mobile browsers. For an overview of the issue, see <a href="/wiki/tutorials/mobile_viewport" title="tutorials/mobile viewport">The Mobile Viewport and Orientation</a>.
+</p><p>The value of <b>font-size</b> also affects the value of <a href="/wiki/css/properties/line-height" title="css/properties/line-height"><b>line-height</b></a> when using its default or relative measurements.
+</p><p>Along with many other CSS properties, <b>font-size</b> can also be applied directly as an SVG attribute:
+</p>
+<div dir="ltr" class="mw-geshi mw-code mw-content-ltr"><div class="xml source-xml"><pre class="de1"><span class="sc3"><span class="re1">&lt;text</span> <span class="re0">x</span>=<span class="st0">&quot;12px&quot;</span> <span class="re0">y</span>=<span class="st0">&quot;12px&quot;</span> <span class="re0">font-family</span>=<span class="st0">&quot;sans-serif&quot;</span> <span class="re0">font-size</span>=<span class="st0">&quot;120%&quot;</span><span class="re2">/&gt;</span></span></pre></div></div>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Related_specifications">Related specifications</span></h2>
+<table class="wikitable relatedspecs">
+
+<tr>
+<th> Specification </th>
+<th> Status </th>
+<th> Related Changes
+</th></tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.w3.org/TR/css3-fonts/#font-size-prop">CSS Fonts Module Level 3</a> </td>
+<td> Working Draft </td>
+<td>
+</td></tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.w3.org/TR/css3-values/">CSS Values and Units Module Level 3</a> </td>
+<td> Candidate Recommendation </td>
+<td>
+</td></tr>
+<tr>
+<td><a rel="nofollow" class="external text" href="http://www.w3.org/TR/CSS2/">Cascading Style Sheets Level 2 Revision 1 (CSS 2.1) Specification</a> </td>
+<td> W3C Recommendation </td>
+<td>
+</td></tr></table>
+<h2><span class="mw-headline" id="Compatibility">Compatibility</span></h2>
+<h3><span class="mw-headline" id="Desktop">Desktop</span></h3>
+<table class="compat-table">
+
+<tr>
+<th> Feature </th>
+<th> Chrome </th>
+<th> Firefox (Gecko) </th>
+<th> Internet Explorer </th>
+<th> Opera </th>
+<th> Safari
+</th></tr>
+<tr>
+<td>Basic Support </td>
+<td> 1.0 <div></div> </td>
+<td> 1.0 <div></div> </td>
+<td> 5.5 <div></div> </td>
+<td> 7.0 <div> </div></td>
+<td> 1.0 <div></div>
+</td></tr></table>
+<h3><span class="mw-headline" id="Mobile">Mobile</span></h3>
+<table class="wikitable">
+
+<tr>
+<th> Feature </th>
+<th> Android </th>
+<th> BlackBerry </th>
+<th> Chrome for mobile </th>
+<th> Firefox Mobile (Gecko) </th>
+<th> IE Mobile </th>
+<th> Opera Mobile </th>
+<th> Opera Mini </th>
+<th> Safari Mobile
+</th></tr>
+<tr>
+<td>Basic Support </td>
+<td> 1.0 <div></div> </td>
+<td> 3.8 <div></div> </td>
+<td> 1.0 <div></div> </td>
+<td> 1.0 <div></div> </td>
+<td> 6.0 <div></div> </td>
+<td> 6.0 <div></div> </td>
+<td> 1.0 <div></div> </td>
+<td> 1.0 <div></div>
+</td></tr></table>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="Compatibility_notes">Compatibility notes</span></h3>
+<table class="wikitable">
+
+<tr>
+<th> Browser </th>
+<th> Version </th>
+<th> Note
+</th></tr>
+<tr>
+<td> IE </td>
+<td> ≤ 6.0 </td>
+<td> Requires a <a href="/wiki/html/elements/!DOCTYPE" title="html/elements/!DOCTYPE"><b>!DOCTYPE</b></a> declaration that triggers <a href="/w/index.php?title=concepts/standards_mode&amp;action=edit&amp;redlink=1" class="new" title="concepts/standards mode (page does not exist)">standards mode</a>, otherwise the initial value is <b>small</b> rather than <b>medium</b>.
+</td></tr>
+<tr>
+<td> IE </td>
+<td> ≤ 7.0 </td>
+<td> Does not support <b>inherit</b> as a value.
+</td></tr>
+<tr>
+<td> IE </td>
+<td> ≤ 8.0 </td>
+<td> Does not resize text specified with absolute pixel measurements when using the browser's <i>text-resize</i> feature, but does resize correctly when zooming the page.
+</td></tr>
+<tr>
+<td> IE </td>
+<td> ≤ 8.0 </td>
+<td> Does not support <a href="/wiki/css/data_types/length" title="css/data types/length"><b>rem</b></a> values; specify other supported values as fallback properties.
+</td></tr>
+<tr>
+<td> All </td>
+<td>  </td>
+<td> Check compatibility for more recent <a href="/wiki/css/data_types/length" title="css/data types/length">viewport unit values</a>.
+</td></tr></table>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<h3><span class="mw-headline" id="Related_articles">Related articles</span></h3>
+<h4><span class="mw-headline" id="CSS_Font">CSS Font</span></h4>
+<ul><li> <a href="/wiki/css/properties/font-family" title="css/properties/font-family">font-family</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <strong class="selflink">font-size</strong>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/font-size-adjust" title="css/properties/font-size-adjust">font-size-adjust</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/font-style" title="css/properties/font-style">font-style</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/font-variant" title="css/properties/font-variant">font-variant</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/font-weight" title="css/properties/font-weight">font-weight</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-rendering" title="css/properties/text-rendering">text-rendering</a>
+</li></ul>
+<h4><span class="mw-headline" id="Fonts">Fonts</span></h4>
+<ul><li> <a href="/wiki/css/fonts" title="css/fonts">Font related properties</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/fonts/font-variant" title="css/fonts/font-variant">css/fonts/font-variant</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/font" title="css/properties/font">font</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/font-family" title="css/properties/font-family">font-family</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/font-feature-settings" title="css/properties/font-feature-settings">font-feature-settings</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <strong class="selflink">font-size</strong>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/font-size-adjust" title="css/properties/font-size-adjust">font-size-adjust</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/font-stretch" title="css/properties/font-stretch">font-stretch</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/font-style" title="css/properties/font-style">font-style</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/font-variant" title="css/properties/font-variant">font-variant</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/font-weight" title="css/properties/font-weight">font-weight</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/html/attributes/size" title="html/attributes/size">size</a>
+</li></ul>
+<h4><span class="mw-headline" id="Text">Text</span></h4>
+<ul><li> <a href="/wiki/css/properties/-ms-block-progression" title="css/properties/-ms-block-progression">-ms-block-progression</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <strong class="selflink">font-size</strong>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/font-weight" title="css/properties/font-weight">font-weight</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/hanging-punctuation" title="css/properties/hanging-punctuation">hanging-punctuation</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/hyphens" title="css/properties/hyphens">hyphens</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/ime-mode" title="css/properties/ime-mode">ime-mode</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/layout-flow" title="css/properties/layout-flow">layout-flow</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/layout-grid" title="css/properties/layout-grid">layout-grid</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/layout-grid-char" title="css/properties/layout-grid-char">layout-grid-char</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/layout-grid-line" title="css/properties/layout-grid-line">layout-grid-line</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/layout-grid-mode" title="css/properties/layout-grid-mode">layout-grid-mode</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/layout-grid-type" title="css/properties/layout-grid-type">layout-grid-type</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/letter-spacing" title="css/properties/letter-spacing">letter-spacing</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/line-break" title="css/properties/line-break">line-break</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/ms-hyphenate-limit-chars" title="css/properties/ms-hyphenate-limit-chars">ms-hyphenate-limit-chars</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/ms-hyphenate-limit-lines" title="css/properties/ms-hyphenate-limit-lines">ms-hyphenate-limit-lines</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/ms-hyphenate-limit-zone" title="css/properties/ms-hyphenate-limit-zone">ms-hyphenate-limit-zone</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-align" title="css/properties/text-align">text-align</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-align-last" title="css/properties/text-align-last">text-align-last</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-autospace" title="css/properties/text-autospace">text-autospace</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-decoration" title="css/properties/text-decoration">text-decoration</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-decoration-color" title="css/properties/text-decoration-color">text-decoration-color</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-decoration-line" title="css/properties/text-decoration-line">text-decoration-line</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-decoration-skip" title="css/properties/text-decoration-skip">text-decoration-skip</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-decoration-style" title="css/properties/text-decoration-style">text-decoration-style</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-emphasis" title="css/properties/text-emphasis">text-emphasis</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-emphasis-color" title="css/properties/text-emphasis-color">text-emphasis-color</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-indent" title="css/properties/text-indent">text-indent</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-justify" title="css/properties/text-justify">text-justify</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-kashida-space" title="css/properties/text-kashida-space">text-kashida-space</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-overflow" title="css/properties/text-overflow">text-overflow</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-overflow-ellipsis" title="css/properties/text-overflow-ellipsis">text-overflow-ellipsis</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-overflow-mode" title="css/properties/text-overflow-mode">text-overflow-mode</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-shadow" title="css/properties/text-shadow">text-shadow</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-transform" title="css/properties/text-transform">text-transform</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-underline-position" title="css/properties/text-underline-position">text-underline-position</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-underline-style" title="css/properties/text-underline-style">text-underline-style</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-underline-width" title="css/properties/text-underline-width">text-underline-width</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/white-space" title="css/properties/white-space">white-space</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/word-break" title="css/properties/word-break">word-break</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/word-spacing" title="css/properties/word-spacing">word-spacing</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/word-wrap" title="css/properties/word-wrap">word-wrap</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/text" title="css/text">Text</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/html/attributes/maxLength" title="html/attributes/maxLength">maxLength</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/html/attributes/size" title="html/attributes/size">size</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/tutorials/canvas_texteffects" title="tutorials/canvas texteffects">Achieving typographic effects with the canvas tag</a>
+</li></ul>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="Other_articles">Other articles</span></h3>
+<ul><li> <a href="/wiki/guides/css_text_styling_fundamentals" title="guides/css text styling fundamentals">CSS text styling fundamentals</a>
+</li></ul>
+<h3><span class="mw-headline" id="External_resources">External resources</span></h3>
+<ul><li> Smashing: <a rel="nofollow" class="external text" href="http://www.smashingmagazine.com/2011/10/07/16-pixels-body-copy-anything-less-costly-mistake">16 Pixels: For Body Copy. Anything Less Is a Costly Mistake</a>
+</li><li> HTML5 Boilerplate: <a rel="nofollow" class="external text" href="https://github.com/h5bp/html5-boilerplate/issues/724">Reasoning behind default font-size and line-height</a>
+</li><li> A List Apart: <a rel="nofollow" class="external text" href="http://www.alistapart.com/articles/howtosizetextincss">How to Size Text in CSS</a>
+</li><li> Mozilla: <a rel="nofollow" class="external text" href="http://mxr.mozilla.org/mozilla/source/layout/style/html.css">default style sheet</a>
+</li><li> WebKit: <a rel="nofollow" class="external text" href="http://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css">default style sheet</a>
+</li></ul>
+<div class="attribution">
+<p><br />
+</p>
+</div>
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 1723/1000000
+Preprocessor generated node count: 7538/1000000
+Post‐expand include size: 45898/2097152 bytes
+Template argument size: 21400/2097152 bytes
+Highest expansion depth: 8/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:45-0!*!0!!*!*!* and timestamp 20130622162213 -->
+</div>										  <!-- /bodycontent -->
+										  
+
+										  										  <!-- printfooter -->
+										  <div class="printfooter">
+										  Retrieved from "<a href="http://docs.webplatform.org/w/index.php?title=css/properties/font-size&amp;oldid=33671">http://docs.webplatform.org/w/index.php?title=css/properties/font-size&amp;oldid=33671</a>"										  </div>
+										  <!-- /printfooter -->
+										  
+										  										  <!-- catlinks -->
+										  <div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/Category:CSS_Properties" title="Category:CSS Properties">CSS Properties</a></li><li><a href="/wiki/Category:CSS" title="Category:CSS">CSS</a></li></ul></div></div>										  <!-- /catlinks -->
+										  
+										  										  
+										  <div class="visualClear"></div>
+										  
+										  <!-- debughtml -->
+										  										  <!-- /debughtml -->
+									 </div>
+									 <!-- /bodyContent -->
+								</div>
+								
+								<div class="topics-nav">
+										<ul>
+											<li><a href="http://docs.webplatform.org/wiki/beginners">Beginners</a></li>
+											<li><a href="http://docs.webplatform.org/wiki/concepts">Concepts</a></li>
+											<li><a href="http://docs.webplatform.org/wiki/html">HTML</a></li>
+											<li><a href="http://docs.webplatform.org/wiki/css">CSS</a></li>
+											<li><a href="http://docs.webplatform.org/wiki/concepts/accessibility">Accessibility</a></li>
+											<li><a href="http://docs.webplatform.org/wiki/javascript">JavaScript</a></li>
+											<li><a href="http://docs.webplatform.org/wiki/dom">DOM</a></li>
+											<li><a href="http://docs.webplatform.org/wiki/svg">SVG</a></li>
+										</ul>
+								</div>
+								
+								<!-- /main content -->
+								<div class="clear"></div>
+						  </div>
+						  <!-- /page content -->
+					 </div>
+					 <!-- /page -->
+				</div>
+				<!-- /container -->
+		</div>
+		<!-- /content -->
+
+		<!-- footer -->
+		<footer id="mw-footer">
+		  <div class="container">
+			 <div id="footer-wordmark">
+				<a href="http://docs.webplatform.org/wiki/Template:CC-by-3.0" class="license">
+				  <img src="http://docs.webplatform.org/w/skins/webplatform/images/cc-by-black.svg" 
+						 alt="Content available under CC-BY, except where otherwise noted.">
+				</a>
+
+				<a href="http://webplatform.org/"><span id="footer-title">WebPlatform<span id="footer-title-light">.org</span></span></a>
+
+			 </div>
+
+				 
+				<ul class="stewards">
+					<li class="steward-w3c"><a href="http://webplatform.org/stewards/w3c">W3C</a></li>
+					<li class="steward-adobe"><a href="http://webplatform.org/stewards/adobe">Adobe</a></li>
+					<li class="steward-facebook"><a href="http://webplatform.org/stewards/facebook">facebook</a></li>
+					<li class="steward-google"><a href="http://webplatform.org/stewards/google">Google</a></li>
+					<li class="steward-hp"><a href="http://webplatform.org/stewards/hp">HP</a></li>
+					
+					<li class="steward-intel"><a href="http://webplatform.org/stewards/intel">Intel</a></li>
+					<li class="steward-microsoft"><a href="http://webplatform.org/stewards/microsoft">Microsoft</a></li>
+					<li class="steward-mozilla"><a href="http://webplatform.org/stewards/mozilla">Mozilla</a></li>
+					<li class="steward-nokia"><a href="http://webplatform.org/stewards/nokia">Nokia</a></li>
+					<li class="steward-opera"><a href="http://webplatform.org/stewards/opera">Opera</a></li>
+				</ul>
+			</div>
+		</footer>
+		<!-- /footer -->
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://docs.webplatform.org/w/load.php?debug=false&amp;lang=en&amp;modules=skins.webplatform&amp;only=scripts&amp;skin=webplatform&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["ext.webplatformSectionCommentsSMW","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.page.ready","mediawiki.hidpi","ext.WebPlatformSearchAutocomplete"],null,true);
+}</script>
+<script>
+var wgCommentsObjects = {"Keywords":"1"};
+</script>
+<script src="http://docs.webplatform.org/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=webplatform&amp;*"></script>
+<!-- Served in 0.394 secs. --><!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://stats.webplatform.org/track/" : "http://stats.webplatform.org/track/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://stats.webplatform.org/track/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+	</body>
+	</html>

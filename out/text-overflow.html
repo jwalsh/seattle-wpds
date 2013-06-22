@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" /><title>text-overflow · css · WPD · WebPlatform.org</title>
+<meta name="generator" content="MediaWiki 1.22wmf5" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="WebPlatform Docs (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="http://docs.webplatform.org/w/api.php?action=rsd" />
+<link rel="copyright" href="/wiki/MediaWiki:Site-terms-of-service" />
+<link rel="alternate" type="application/atom+xml" title="WebPlatform Docs Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="http://docs.webplatform.org/w/load.php?debug=false&amp;lang=en&amp;modules=ext.rtlcite%7Cmediawiki.legacy.commonPrint%2Cshared%7Cskins.webplatform&amp;only=styles&amp;skin=webplatform&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="http://docs.webplatform.org/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=webplatform&amp;*" />
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: wpwiki:resourceloader:filter:minify-css:7:4e3d3c1e625e8fb6d72c9009a25f9526 */</style>
+
+<script src="http://docs.webplatform.org/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=webplatform&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"css/properties/text-overflow","wgTitle":"css/properties/text-overflow","wgCurRevisionId":25277,"wgArticleId":2661,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CSS Properties","CSS"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"css/properties/text-overflow","wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVectorEnabledModules":{"collapsiblenav":true,"collapsibletabs":true,"expandablesearch":false,"footercleanup":false,"sectioneditlinks":false,"experiments":true},"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":false,"previewDialog":false,"publish":false,"toc":false},"sfgAutocompleteOnAllChars":false,"sfgScriptPath":"/w/extensions/SemanticForms","sfgAutocompleteValues":[],"sfgShowOnSelect":[],"sfgFieldProperties":[],"sfgDependentFields":[],"sfgFormErrorsHeader":"There were errors with your form input; see below.","sfgBlankErrorStr":"cannot be blank","sfgBadURLErrorStr":"must have the correct URL format, starting with \"http\"","sfgBadEmailErrorStr":"must have a valid email address format","sfgBadNumberErrorStr":"must be a valid number","sfgBadDateErrorStr":"must be a valid date","sfgAnonEditWarning":"Warning: You are not logged in. Your IP address will be recorded in this page's edit history.","sfgSaveAndContinueSummary":"Saved using \"Save and continue\" button in form","_US_LETTERS":"letters left","wgNarayamAvailableSchemes":[],"wgNarayamAllSchemes":{"ady":[],"ady-cyrl":[],"ahr":{"ahr":"ext.narayam.rules.ahr","ahr-inscript":"ext.narayam.rules.ahr-inscript"},"am":{"am":"ext.narayam.rules.am"},"as":{"as":"ext.narayam.rules.as","as-avro":"ext.narayam.rules.as-avro","as-bornona":"ext.narayam.rules.as-bornona","as-inscript":"ext.narayam.rules.as-inscript"},"bh":{"bho":"ext.narayam.rules.bho","bho-inscript":"ext.narayam.rules.bho-inscript"},"av":[],"bho":{"bho":"ext.narayam.rules.bho","bho-inscript":"ext.narayam.rules.bho-inscript"},"bn":{"bn-avro":"ext.narayam.rules.bn-avro","bn-inscript":"ext.narayam.rules.bn-inscript","bn-nkb":"ext.narayam.rules.bn-nkb","bn-probhat":"ext.narayam.rules.bn-probhat"},"brx":[],"hne":[],"ce":[],"de":{"de":"ext.narayam.rules.de"},"eo":{"eo":"ext.narayam.rules.eo"},"gom-deva":[],"gu":{"gu":"ext.narayam.rules.gu","gu-inscript":"ext.narayam.rules.gu-inscript"},"he":[],"hi":{"hi":"ext.narayam.rules.hi","hi-bolnagri":"ext.narayam.rules.hi-bolnagri","hi-inscript":"ext.narayam.rules.hi-inscript"},"inh":[],"jv":[],"kbd":[],"kbd-cyrl":[],"ka":{"ka":"ext.narayam.rules.ka"},"kn":{"kn":"ext.narayam.rules.kn","kn-inscript":"ext.narayam.rules.kn-inscript"},"lbe":[],"lez":[],"mai":[],"ml":{"ml":"ext.narayam.rules.ml","ml-inscript":"ext.narayam.rules.ml-inscript"},"mr":{"mr":"ext.narayam.rules.mr","mr-inscript":"ext.narayam.rules.mr-inscript"},"ne":[],"new":[],"or":{"or":"ext.narayam.rules.or","or-lekhani":"ext.narayam.rules.or-lekhani","or-inscript":"ext.narayam.rules.or-inscript"},"pa":{"pa":"ext.narayam.rules.pa","pa-inscript":"ext.narayam.rules.pa-inscript","pa-phonetic":"ext.narayam.rules.pa-phonetic"},"rif":[],"sa":{"sa":"ext.narayam.rules.sa","sa-inscript":"ext.narayam.rules.sa-inscript"},"shi":[],"si":{"si-singlish":"ext.narayam.rules.si-singlish","si-wijesekara":"ext.narayam.rules.si-wijesekara"},"ta":{"ta":"ext.narayam.rules.ta","ta-99":"ext.narayam.rules.ta-99","ta-inscript":"ext.narayam.rules.ta-inscript"},"tcy":[],"te":{"te":"ext.narayam.rules.te","te-inscript":"ext.narayam.rules.te-inscript"},"tkr":[],"ur":[],"ru":[],"sah":[]},"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":true,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"webplatform","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0
+,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"useeditwarning":1,"vector-simplesearch":1,"vector-collapsiblenav":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs102":false,"searchNs103":false,"searchNs106":false,"searchNs107":false,"searchNs108":false,"searchNs109":false,"searchNs200":false,"searchNs201":false,"searchNs202":false,"searchNs203":false,"searchNs3000":false,"searchNs3001":false,"searchNs3010":false,"searchNs3011":false,"searchNs3020":false,"searchNs3021":false,"narayamEnable":true});},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\",
+"patrolToken":false,"watchToken":false});},{},{});
+/* cache key: wpwiki:resourceloader:filter:minify-js:7:b66f15bba35c6f87e093b6183da225b6 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.comments","mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+		<link rel="alternate" type="application/rdf+xml" title="css/properties/text-overflow" href="/w/index.php?title=Special:ExportRDF/css/properties/text-overflow&amp;xmlmime=rdf" />
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins/webplatform/csshover.min.htc")}</style><![endif]--><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><!--[if lt IE 9]><script src="http://docs.webplatform.org/w/skins/webplatform/html5shiv.js"></script><![endif]--><meta name="viewport" content="width=device-width"><!--[if lt IE 8]><link rel="stylesheet" href="http://docs.webplatform.org/w/skins/webplatform/ie7.css"><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-css_properties_text-overflow skin-webplatform action-view">
+			<div id="mw-page-base" class="noprint"></div>
+				<div id="mw-head-base" class="noprint"></div>
+				
+				<!-- header -->
+				<header id="mw-head" class="noprint">
+					<div class="container">
+						
+						<!-- logo -->
+						<div id="p-logo">
+							<a href="/wiki/Main_Page"  title="Visit the main page"></a>
+						</div>
+						<!-- /logo -->
+
+							<div id="p-personal" class="dropdown ">	
+		<a href='/w/index.php?title=Special:UserLogin&returnto=css%2Fproperties%2Ftext-overflow' class='' id='pt-login'>Log in</a>	  <ul class="user-dropdown">
+		  <li id="pt-createaccount"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=css%2Fproperties%2Ftext-overflow&amp;type=signup">Create account</a></li>	  </ul>
+	</div>
+							
+		<div id="p-search">
+			<h5><label for="searchInput">Search</label></h5>
+			<form action="/w/index.php" id="searchform">
+				<div id="search">
+					<input name="search" placeholder="Search..." title="Search WebPlatform Docs [f]" accesskey="f" id="searchInput" />					<input type="submit" name="fulltext" value=" " title="Search the pages for this text" id="mw-searchButton" class="searchButton" />					<input type='hidden' name="title" value="Special:Search"/>
+				</div>
+			</form>
+		</div>
+	
+<!-- /search -->
+					</div>
+				</header>
+				<!-- /header -->
+				
+				<nav id="sitenav">
+				<div class="container">
+					<ul class="links">
+						<li><a href="http://docs.webplatform.org/wiki/" class="active">DOCS</a></li>
+						<li><a href="http://docs.webplatform.org/wiki/WPD:Editors_Guide">EDITING</a></li>
+						<li><a href="http://talk.webplatform.org/">DISCUSSION</a></li>
+						<li><a href="http://blog.webplatform.org">BLOG</a></li>
+						<li><a href="http://docs.webplatform.org/wiki/WPD:Community">COMMUNITY</a></li>
+						<li><a href="http://project.webplatform.org">ISSUES</a></li>
+					</ul>
+				</div>
+				</nav>
+
+				<!-- content -->
+				<div id="content" class="mw-body">
+					<div class="container">
+						<a id="top"></a>
+						<div class="tool-area">
+							<div id="hierarchy-menu">
+								<ol id="breadcrumb-info" class="breadcrumbs">
+									<li><a href="http://webplatform.org/">HOME</a></li>
+									<li><a href="/wiki/Main_Page">DOCS</a></li>
+									<li><a href="http://docs.webplatform.org/wiki/css">css</a></li><li><a href="http://docs.webplatform.org/wiki/css/properties">properties</a></li><li><a href="http://docs.webplatform.org/wiki/css/properties/text-overflow">text-overflow</a></li>								</ol>
+							</div>
+							
+							<div class="toolbar">
+									<div class="dropdown">
+		<a href="http://docs.webplatform.org/wiki/Special:UserLogin" id="ca-edit" class="highlighted edit button">
+		 	Edit		</a>
+		<ul>
+			<li id="ca-form_edit"><a href="/w/index.php?title=css/properties/text-overflow&amp;action=formedit">View form</a></li><li id="ca-history"><a href="/w/index.php?title=css/properties/text-overflow&amp;action=history" rel="archives" title="Past revisions of this page [h]" accesskey="h">History</a></li><li id="ca-view" class="selected"><a href="/wiki/css/properties/text-overflow" primary="1" redundant="1">View</a></li>		</ul>
+	</div>
+																	<div class="dropdown">
+		<a class="tools button">
+		 	Tools
+		</a>
+		<ul>
+			<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/css/properties/text-overflow" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li><a href="/wiki/Special:Browse/css-2Fproperties-2Ftext-2Doverflow" title="Special:Browse/css-2Fproperties-2Ftext-2Doverflow">Browse properties</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/css/properties/text-overflow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="ca-talk" class="new"><a href="/w/index.php?title=Talk:css/properties/text-overflow&amp;action=edit&amp;redlink=1" primary="1" context="talk" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li><li id="n-help"><a href="/wiki/Help:Contents" title="The place to find out">Help</a></li>		</ul>
+	</div>
+							</div>
+						</div>
+						<div id="page">
+						  <div id="page-content">
+																
+								<div id="main-content">
+									 <div id="mw-js-message" style="display:none;"></div>
+									 									 <!-- sitenotice -->
+									 <div id="siteNotice"><script>document.write("\u003Cdiv id=\"localNotice\" lang=\"en\" dir=\"ltr\"\u003E\u003Cdiv class=\"note\" id=\"alpha-notice\"\u003E\n\u003Cp\u003E\u003Cb\u003EWeb Platform Docs is currently in \u003Ca href=\"/wiki/WPD:FAQ\" title=\"WPD:FAQ\"\u003Ealpha\u003C/a\u003E. Join our community of contributors and help us reach \u003C/b\u003Ebeta\u003Ci\u003E! \u003C/i\u003E\n\u003Cbr /\u003E\nSee the \u003Ca href=\"/wiki/WPD:Editors_Guide\" title=\"WPD:Editors Guide\"\u003EEditor's Guide\u003C/a\u003E to learn how to get involved.\n\u003C/p\u003E\n\u003Cp class=\"campaign\"\u003E\nAre you skilled in CSS? Please help us reach our goal of \u003Cbr /\u003E complete CSS  property articles by July in our weekly  \u003Ca rel=\"nofollow\" class=\"external text\" href=\"http://docs.webplatform.org/wiki/Meta:web_platform_wednesday?pk_campaign=sitenotice\u0026amp;pk_kwd=cssbeta\"\u003EWeb Platform Wednesday\u003C/a\u003E!\n\u003C/p\u003E\n\u003C/div\u003E\n\u003C/div\u003E");</script></div>
+									 <!-- /sitenotice -->
+									 									 <!-- firstHeading -->
+									 <h1 id="firstHeading" class="firstHeading"><span dir="auto">text-overflow</span></h1>
+									 <!-- /firstHeading -->
+
+									 <!--  -->
+
+									 <!-- subtitle -->
+									 <div id="contentSub"><span class="subpages">&lt; <a href="/wiki/css" title="css">css</a>&lrm; | <a href="/wiki/css/properties" title="css/properties">properties</a></span></div>
+									 <!-- /subtitle -->
+						
+									 <!-- bodyContent -->
+									 <div id="bodyContent">
+
+										  										  
+										  										  
+										  										  <!-- jumpto -->
+										  <div id="jump-to-nav" class="mw-jump">
+												Jump to: <a href="#mw-head">navigation</a>,
+												<a href="#p-search">search</a>
+										  </div>
+										  <!-- /jumpto -->
+										  										  
+
+										  <!-- bodycontent -->
+										  <div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div id="commentsDialog" class="comments-hidden" style="display:none"><ul id="tab-links"><li><a class="comments-dialog-link" id="blockcomments-link" href="#blockcomments-container">Comments from section</a></li><li><a class="comments-dialog-link" id="allcomments-link" href="#allcomments">All comments</a></li><li><a class="comments-dialog-link" id="help-link" href="#help">Help</a></li></ul><div id="blockcomments-container"><div id="blockcomments"></div><div id="blockcomments-form"><div class="c-form-message">WebPlatform Docs welcomes <b>all comments</b>.  If you want to comment, please <a href="http://docs.webplatform.org/w/index.php?title=Special:UserLogin/signup&amp;returnto=css%2Fproperties%2Ftext-overflow">register</a> or <a href="http://docs.webplatform.org/w/index.php?title=Special:UserLogin&amp;returnto=css%2Fproperties%2Ftext-overflow">log in</a>. It is free.</div>
+</div></div><div id="allcomments"></div><div id="help"><p>This tool helps to make and review comments inline.
+</p>
+<h2><span class="mw-headline" id="How_to_Use">How to Use</span></h2>
+<p><i>insert instructions, with images, here</i>
+</p>
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:1354-0!*!*!*!*!*!* and timestamp 20130622090845 -->
+</div></div><h1><span class="mw-headline" id="text-overflow">text-overflow</span></h1>
+<div id="flags"></div>
+<p><br />
+<span class="standardization_status">W3C Candidate Recommendation</span>
+</p>
+<h2><span class="mw-headline" id="Summary">Summary</span></h2>
+<p>The text-overflow shorthand CSS property determines how overflowed content that is not displayed is signaled to the users. It can be clipped, display an ellipsis ('…', U+2026 HORIZONTAL ELLIPSIS) or a Web author-defined string. It covers the two long-hand properties <a href="/wiki/css/properties/text-overflow-mode" title="css/properties/text-overflow-mode">text-overflow-mode</a> and <a href="/wiki/css/properties/text-overflow-ellipsis" title="css/properties/text-overflow-ellipsis">text-overflow-ellipsis</a>
+</p>
+<h2><span class="mw-headline" id="Overview_table">Overview table</span></h2>
+<table class="wikitable overview_table">
+<tr>
+<th> <a href="/wiki/css/concepts/initial_value" title="css/concepts/initial value"> Initial value</a>
+</th>
+<td> <code>not defined for shorthand properties</code>
+</td></tr>
+<tr>
+<th> Applies to
+</th>
+<td> block-level and inline-block elements
+</td></tr>
+<tr>
+<th> <a href="/wiki/css/concepts/inherited" title="css/concepts/inherited"> Inherited</a>
+</th>
+<td> No
+</td></tr>
+<tr>
+<th> Media
+</th>
+<td> <a href="/w/index.php?title=visual&amp;action=edit&amp;redlink=1" class="new" title="visual (page does not exist)">visual</a>
+</td></tr>
+<tr>
+<th> <a href="/wiki/css/concepts/computed_value" title="css/concepts/computed value"> Computed value</a>
+</th>
+<td> see individual properties
+</td></tr>
+<tr>
+<th> Animatable
+</th>
+<td> No
+</td></tr>
+<tr>
+<th> <a href="/wiki/css/concepts/cssom" title="css/concepts/cssom"> CSS Object Model Property</a>
+</th>
+<td> <code>&lt;'text-overflow-mode'&gt;</code>
+</td></tr></table>
+<h2><span class="mw-headline" id="Syntax">Syntax</span></h2>
+<ul>
+	<li>
+
+<code>text-overflow: clip</code>
+</li>
+	<li>
+
+<code>text-overflow: ellipsis</code>
+</li>
+	<li>
+
+<code>text-overflow: ellipsis-word</code>
+</li>
+</ul>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Values">Values</span></h2>
+<div class="css-property">
+<dl><dt><b>clip</b>
+</dt><dd><i>Default. Simply clips the content and does not display ellipsis for text-overflow.</i>
+</dd></dl>
+</div>
+<div class="css-property">
+<dl><dt><b>ellipsis</b>
+</dt><dd><i>Display ellipsis (...) for text overflow after the last letter that entirely fits into a line.</i>
+</dd></dl>
+</div>
+<div class="css-property">
+<dl><dt><b>ellipsis-word</b>
+</dt><dd><i>Display ellipsis (...) for text overflow after the last word that entirely fits into a line.</i>
+</dd></dl>
+</div>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Examples">Examples</span></h2>
+<p><a rel="nofollow" class="external text" href="http://dabblet.com/gist/4744956">View live example</a>The following example shows how to use <b>ellipsis</b>, <b>ellipsis-word</b> and <b>clip</b> values for the <b>text-overflow</b> property.
+</p>
+<div class="example" style="position:relative">
+<p><span class="language">HTML</span>
+</p>
+<pre>
+&lt;!-- example showing text-overflow shorthand property --&gt;
+&lt;div class=&quot;overflowed overflowed-clip&quot;&gt;
+	&lt;p&gt;This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;overflowed overflowed-ellipsis&quot;&gt;
+	&lt;p&gt;This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;overflowed overflowed-ellipsis-word&quot;&gt;
+	&lt;p&gt;This is an example text showing nothing interesting but the truncated content via text-overflow shorthand property.&lt;/p&gt;
+&lt;/div&gt;
+</pre>
+</div>
+<p><a rel="nofollow" class="external text" href="http://dabblet.com/gist/4744956">View live example</a>
+</p>
+<div class="example" style="position:relative">
+<p><span class="language">CSS</span>
+</p>
+<pre>
+.overflowed &gt; p{
+	width: 10em;
+	height: 5em;
+	white-space: nowrap; 
+	overflow: hidden;
+}
+
+.overflowed-clip {
+	text-overflow: clip;
+}
+
+.overflowed-ellipsis &gt; p {
+	text-overflow: ellipsis;
+}
+
+.overflowed-ellipsis-word &gt; p {
+	text-overflow: ellipsis-word;
+}
+</pre>
+</div>
+<h2><span class="mw-headline" id="Notes">Notes</span></h2>
+<h3><span class="mw-headline" id="Remarks">Remarks</span></h3>
+<p>This property only applies to text overflow in the inline direction (horizontal, in normal Western text).  Inline overflow occurs when the text in a line overflows the available width without a breaking opportunity. To force overflow to occur and ellipses to be applied, the author must apply the <i>nowrap</i> value to the <a href="/wiki/css/properties/white-space" title="css/properties/white-space"><b>white-space</b></a> property on the element, or wrap the content in a &lt;NOBR&gt; tag. If there is no breaking opportunity (for example, the width is narrow or there is a long word that does not break well), then overflow may occur without <i>nowrap</i> being applied.
+This property on the element must be set to something other than <i>visible</i>, the default, in order for ellipses to be rendered.  The best choice is to set <a href="/wiki/css/properties/overflow" title="css/properties/overflow"><b>overflow</b></a> to  <i>hidden</i>.  Setting <b>overflow</b> to <i>scroll</i> or <i>auto</i> will also work, but will show scrollbars.
+The hidden text can be selected by selecting the ellipses. When selected, the ellipses will disappear and be replaced by the text to the extent of the layout area.
+This property offers an efficient alternative to building ellipses in Dynamic HTML (DHTML). As ellipses may be rendered many times on a single page, using this property can significantly speed up performance.
+</p>
+<h3><span class="mw-headline" id="Syntax_2">Syntax</span></h3>
+<p><code><b>text-overflow: </b>ellipsis <b>|</b> clip</code>
+</p>
+<h2><span class="mw-headline" id="Compatibility">Compatibility</span></h2>
+<h3><span class="mw-headline" id="Desktop">Desktop</span></h3>
+<table class="compat-table">
+
+<tr>
+<th> Feature </th>
+<th> Chrome </th>
+<th> Firefox (Gecko) </th>
+<th> Internet Explorer </th>
+<th> Opera </th>
+<th> Safari
+</th></tr>
+<tr>
+<td>Basic Support </td>
+<td> 4 <div></div> </td>
+<td> 7.0 <div></div> </td>
+<td> 6.0 <div></div> </td>
+<td> 11.0 <div>9.0 <span class="prefix o">-o</span> </div></td>
+<td> 3.1 <div></div>
+</td></tr></table>
+<h3><span class="mw-headline" id="Mobile">Mobile</span></h3>
+<table class="wikitable">
+
+<tr>
+<th> Feature </th>
+<th> Android </th>
+<th> BlackBerry </th>
+<th> Chrome for mobile </th>
+<th> Firefox Mobile (Gecko) </th>
+<th> IE Mobile </th>
+<th> Opera Mobile </th>
+<th> Opera Mini </th>
+<th> Safari Mobile
+</th></tr>
+<tr>
+<td>Basic Support </td>
+<td> 2.1 <div></div> </td>
+<td> 7 <div></div> </td>
+<td> 18.0 <div></div> </td>
+<td> 18.0 <div></div> </td>
+<td> <span class="unknown">?</span> <div></div> </td>
+<td> 12.1 <div>10.0 <span class="prefix o">-o</span></div> </td>
+<td>  <div>5.0-7.0 <span class="prefix o">-o</span></div> </td>
+<td> 3.2 <div></div>
+</td></tr></table>
+<h2><span class="mw-headline" id="See_also">See also</span></h2>
+<h3><span class="mw-headline" id="Related_articles">Related articles</span></h3>
+<h4><span class="mw-headline" id="Text">Text</span></h4>
+<ul><li> <a href="/wiki/css/properties/-ms-block-progression" title="css/properties/-ms-block-progression">-ms-block-progression</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/font-size" title="css/properties/font-size">font-size</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/font-weight" title="css/properties/font-weight">font-weight</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/hanging-punctuation" title="css/properties/hanging-punctuation">hanging-punctuation</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/hyphens" title="css/properties/hyphens">hyphens</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/ime-mode" title="css/properties/ime-mode">ime-mode</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/layout-flow" title="css/properties/layout-flow">layout-flow</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/layout-grid" title="css/properties/layout-grid">layout-grid</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/layout-grid-char" title="css/properties/layout-grid-char">layout-grid-char</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/layout-grid-line" title="css/properties/layout-grid-line">layout-grid-line</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/layout-grid-mode" title="css/properties/layout-grid-mode">layout-grid-mode</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/layout-grid-type" title="css/properties/layout-grid-type">layout-grid-type</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/letter-spacing" title="css/properties/letter-spacing">letter-spacing</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/line-break" title="css/properties/line-break">line-break</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/ms-hyphenate-limit-chars" title="css/properties/ms-hyphenate-limit-chars">ms-hyphenate-limit-chars</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/ms-hyphenate-limit-lines" title="css/properties/ms-hyphenate-limit-lines">ms-hyphenate-limit-lines</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/ms-hyphenate-limit-zone" title="css/properties/ms-hyphenate-limit-zone">ms-hyphenate-limit-zone</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-align" title="css/properties/text-align">text-align</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-align-last" title="css/properties/text-align-last">text-align-last</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-autospace" title="css/properties/text-autospace">text-autospace</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-decoration" title="css/properties/text-decoration">text-decoration</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-decoration-color" title="css/properties/text-decoration-color">text-decoration-color</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-decoration-line" title="css/properties/text-decoration-line">text-decoration-line</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-decoration-skip" title="css/properties/text-decoration-skip">text-decoration-skip</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-decoration-style" title="css/properties/text-decoration-style">text-decoration-style</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-emphasis" title="css/properties/text-emphasis">text-emphasis</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-emphasis-color" title="css/properties/text-emphasis-color">text-emphasis-color</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-indent" title="css/properties/text-indent">text-indent</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-justify" title="css/properties/text-justify">text-justify</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-kashida-space" title="css/properties/text-kashida-space">text-kashida-space</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <strong class="selflink">text-overflow</strong>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-overflow-ellipsis" title="css/properties/text-overflow-ellipsis">text-overflow-ellipsis</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-overflow-mode" title="css/properties/text-overflow-mode">text-overflow-mode</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-shadow" title="css/properties/text-shadow">text-shadow</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-transform" title="css/properties/text-transform">text-transform</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-underline-position" title="css/properties/text-underline-position">text-underline-position</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-underline-style" title="css/properties/text-underline-style">text-underline-style</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/text-underline-width" title="css/properties/text-underline-width">text-underline-width</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/white-space" title="css/properties/white-space">white-space</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/word-break" title="css/properties/word-break">word-break</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/word-spacing" title="css/properties/word-spacing">word-spacing</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/properties/word-wrap" title="css/properties/word-wrap">word-wrap</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/css/text" title="css/text">Text</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/html/attributes/maxLength" title="html/attributes/maxLength">maxLength</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/html/attributes/size" title="html/attributes/size">size</a>
+</li></ul>
+<p><br />
+</p>
+<ul><li> <a href="/wiki/tutorials/canvas_texteffects" title="tutorials/canvas texteffects">Achieving typographic effects with the canvas tag</a>
+</li></ul>
+<p><br />
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="Related_pages_.28MSDN.29">Related pages (MSDN)</span></h3>
+<ul><li><code><a href="/wiki/css/cssom/CSSStyleDeclaration/CSSStyleDeclaration" title="css/cssom/CSSStyleDeclaration/CSSStyleDeclaration">CSSStyleDeclaration</a></code>
+</li><li><code><a href="/wiki/css/cssom/currentStyle" title="css/cssom/currentStyle">currentStyle</a></code>
+</li><li><code><a href="/wiki/dom/defaultSelected" title="dom/defaultSelected">defaults</a></code>
+</li><li><code><a href="/wiki/css/cssom/runtimeStyle" title="css/cssom/runtimeStyle">runtimeStyle</a></code>
+</li><li><code><a href="/wiki/css/cssom/style" title="css/cssom/style">style</a></code>
+</li></ul>
+<div class="attribution">
+<p><i>This article contains content originally from external sources.</i>
+</p>
+<div class="attribution-block">
+<p>Portions of this content come from the Mozilla Developer Network <a href="http://creativecommons.org/licenses/by-sa/3.0/us/" rel="nofollow"><img alt="cc-by-sa-small-wpd.svg" src="/w/images/thumb/8/8c/cc-by-sa-small-wpd.svg/120px-cc-by-sa-small-wpd.svg.png" width="120" height="23" srcset="/w/images/thumb/8/8c/cc-by-sa-small-wpd.svg/180px-cc-by-sa-small-wpd.svg.png 1.5x, /w/images/thumb/8/8c/cc-by-sa-small-wpd.svg/240px-cc-by-sa-small-wpd.svg.png 2x" /></a>: <a rel="nofollow" class="external text" href="http://dev.w3.org/csswg/css3-ui/#text-overflow">Article</a>
+</p>
+</div><div class="attribution-block">
+<p>Portions of this content come from the Microsoft Developer Network: [<a rel="nofollow" class="external text" href="http://msdn.microsoft.com/en-us/library/ie/hh828809%28v=vs.85%29.aspx">Windows Internet Explorer API reference</a> Article]
+</p>
+</div>
+</div>
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 1360/1000000
+Preprocessor generated node count: 6765/1000000
+Post‐expand include size: 37611/2097152 bytes
+Template argument size: 16632/2097152 bytes
+Highest expansion depth: 9/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wpwiki:pcache:idhash:2661-0!*!0!!*!2!* and timestamp 20130622164146 -->
+</div>										  <!-- /bodycontent -->
+										  
+
+										  										  <!-- printfooter -->
+										  <div class="printfooter">
+										  Retrieved from "<a href="http://docs.webplatform.org/w/index.php?title=css/properties/text-overflow&amp;oldid=25277">http://docs.webplatform.org/w/index.php?title=css/properties/text-overflow&amp;oldid=25277</a>"										  </div>
+										  <!-- /printfooter -->
+										  
+										  										  <!-- catlinks -->
+										  <div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/Category:CSS_Properties" title="Category:CSS Properties">CSS Properties</a></li><li><a href="/wiki/Category:CSS" title="Category:CSS">CSS</a></li></ul></div></div>										  <!-- /catlinks -->
+										  
+										  										  
+										  <div class="visualClear"></div>
+										  
+										  <!-- debughtml -->
+										  										  <!-- /debughtml -->
+									 </div>
+									 <!-- /bodyContent -->
+								</div>
+								
+								<div class="topics-nav">
+										<ul>
+											<li><a href="http://docs.webplatform.org/wiki/beginners">Beginners</a></li>
+											<li><a href="http://docs.webplatform.org/wiki/concepts">Concepts</a></li>
+											<li><a href="http://docs.webplatform.org/wiki/html">HTML</a></li>
+											<li><a href="http://docs.webplatform.org/wiki/css">CSS</a></li>
+											<li><a href="http://docs.webplatform.org/wiki/concepts/accessibility">Accessibility</a></li>
+											<li><a href="http://docs.webplatform.org/wiki/javascript">JavaScript</a></li>
+											<li><a href="http://docs.webplatform.org/wiki/dom">DOM</a></li>
+											<li><a href="http://docs.webplatform.org/wiki/svg">SVG</a></li>
+										</ul>
+								</div>
+								
+								<!-- /main content -->
+								<div class="clear"></div>
+						  </div>
+						  <!-- /page content -->
+					 </div>
+					 <!-- /page -->
+				</div>
+				<!-- /container -->
+		</div>
+		<!-- /content -->
+
+		<!-- footer -->
+		<footer id="mw-footer">
+		  <div class="container">
+			 <div id="footer-wordmark">
+				<a href="http://docs.webplatform.org/wiki/Template:CC-by-3.0" class="license">
+				  <img src="http://docs.webplatform.org/w/skins/webplatform/images/cc-by-black.svg" 
+						 alt="Content available under CC-BY, except where otherwise noted.">
+				</a>
+
+				<a href="http://webplatform.org/"><span id="footer-title">WebPlatform<span id="footer-title-light">.org</span></span></a>
+
+			 </div>
+
+				 
+				<ul class="stewards">
+					<li class="steward-w3c"><a href="http://webplatform.org/stewards/w3c">W3C</a></li>
+					<li class="steward-adobe"><a href="http://webplatform.org/stewards/adobe">Adobe</a></li>
+					<li class="steward-facebook"><a href="http://webplatform.org/stewards/facebook">facebook</a></li>
+					<li class="steward-google"><a href="http://webplatform.org/stewards/google">Google</a></li>
+					<li class="steward-hp"><a href="http://webplatform.org/stewards/hp">HP</a></li>
+					
+					<li class="steward-intel"><a href="http://webplatform.org/stewards/intel">Intel</a></li>
+					<li class="steward-microsoft"><a href="http://webplatform.org/stewards/microsoft">Microsoft</a></li>
+					<li class="steward-mozilla"><a href="http://webplatform.org/stewards/mozilla">Mozilla</a></li>
+					<li class="steward-nokia"><a href="http://webplatform.org/stewards/nokia">Nokia</a></li>
+					<li class="steward-opera"><a href="http://webplatform.org/stewards/opera">Opera</a></li>
+				</ul>
+			</div>
+		</footer>
+		<!-- /footer -->
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script src="http://docs.webplatform.org/w/load.php?debug=false&amp;lang=en&amp;modules=skins.webplatform&amp;only=scripts&amp;skin=webplatform&amp;*"></script>
+<script>if(window.mw){
+mw.loader.load(["ext.webplatformSectionCommentsSMW","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.page.ready","mediawiki.hidpi","ext.WebPlatformSearchAutocomplete"],null,true);
+}</script>
+<script>
+var wgCommentsObjects = {};
+</script>
+<script src="http://docs.webplatform.org/w/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=webplatform&amp;*"></script>
+<!-- Served in 0.482 secs. --><!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://stats.webplatform.org/track/" : "http://stats.webplatform.org/track/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://stats.webplatform.org/track/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+	</body>
+	</html>
