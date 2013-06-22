@@ -12,7 +12,7 @@ http://docs.webplatform.org/wiki/WPD:Editors_Guide
 
 * Tasks 
 
-** CSS properties 
+** CSS: Properties 
 
 This seems to be the core focus.  This was originally from MSDN but
 the goal is to find out what was required.  
@@ -35,7 +35,7 @@ pages.
 
 Look at validating the properties. 
 
-** CSS review 
+** CSS: Review 
 
 - [ ] alignment-adjust
 - [ ] alignment-baseline
@@ -179,9 +179,9 @@ Look at validating the properties.
 - [ ] text-underline-color
 - [ ] text-underline-mode
 - [ ] unicode-range
-- [ ] user-focus
-- [ ] user-input
-- [ ] user-modify
+- [x] user-focus
+- [x] user-input
+- [x] user-modify
 - [ ] vector-effect
 - [ ] voice-balance
 - [ ] voice-duration
@@ -195,14 +195,22 @@ Look at validating the properties.
 - [ ] word-break-cjk
 - [ ] word-break-inside
 
+** CSS: user-*
 
-** Events 
+Using this as a baseline for the work. 
+
+Examples provided in stubs.  These are vendor prefixed. 
+
+** CSS: marquee-*
+
+http://www.w3.org/TR/2008/WD-css3-marquee-20080801/
+
+** JavaScript: Events 
 - http://docs.webplatform.org/wiki/events
 
 Testable JavaScript has ch. 3 devoted to event-based architectures. 
 
-
-** Functions 
+** JavaScript: Functions 
 
 - http://docs.webplatform.org/wiki/javascript/functions
 
