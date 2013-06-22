@@ -195,22 +195,55 @@ Look at validating the properties.
 - [ ] word-break-cjk
 - [ ] word-break-inside
 
-** CSS: user-*
+** [#B] CSS: user-*
+
+http://docs.webplatform.org/wiki/css/properties/user-focus 
 
 Using this as a baseline for the work. 
 
 Examples provided in stubs.  These are vendor prefixed. 
 
-** CSS: marquee-*
+http://code.webplatform.org/gist/5842007
+
+http://dev.w3.org/csswg/css-ui/
+https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-user-focus
+
+** [#A] CSS: marquee-*
+
+http://docs.webplatform.org/wiki/css/properties/marquee
+
+http://code.webplatform.org/gist/5841978
+
+There is an example in the specification that just uses overflow-style
+so this would likely have to be there if it worked:
+
+http://code.webplatform.org/gist/5842096
+
+Core specification suggest that this is just part of 
 
 http://www.w3.org/TR/2008/WD-css3-marquee-20080801/
+
+There are several properties that need to be provided before the
+functionality is available.  In particular the overflow needs to be
+specified. 
+
+http://docs.webplatform.org/w/index.php?title=css/properties/overflow-x&action=formedit
+
+** CSS: column-fill
+
+This is just to check the progress of a particular item. 
+
+http://docs.webplatform.org/wiki/css/properties/column-fill
+** CSS: padding 
+
+http://docs.webplatform.org/wiki/css/properties/padding
 
 ** JavaScript: Events 
 - http://docs.webplatform.org/wiki/events
 
 Testable JavaScript has ch. 3 devoted to event-based architectures. 
 
-** JavaScript: Functions 
+** [#C] JavaScript: Functions 
 
 - http://docs.webplatform.org/wiki/javascript/functions
 
