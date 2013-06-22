@@ -1,0 +1,240 @@
+* Summary 
+
+http://www.eventbrite.com/event/6906289899
+
+http://webchat.freenode.net/?channels=#webplatform
+
+* Preparation 
+
+Signed up as an editor 
+
+http://docs.webplatform.org/wiki/WPD:Editors_Guide
+
+* Tasks 
+
+** CSS properties 
+
+This seems to be the core focus.  This was originally from MSDN but
+the goal is to find out what was required.  
+
+- was it transferred 
+- was all data complete 
+
+Look at using the w3 specification for the signatures. 
+
+The general structure of this would be 
+
+- Usage 
+- Examples 
+- Compatibility 
+
+Uses wiki markup. Should be possible to export from org-mode. 
+
+This has a fairly extensive form associated with the editing of the
+pages. 
+
+Look at validating the properties. 
+
+** CSS review 
+
+[ ] alignment-adjust
+[ ] alignment-baseline
+[ ] all-space-treatment
+[ ] background-blend-mode
+[ ] background-composite
+[ ] baseline-shift
+[ ] binding
+[ ] block-progression
+[ ] box-decoration-break
+[ ] box-snap
+[ ] clip-rule
+[ ] color-correction
+[ ] color-interpolation-filters
+[ ] color-interpolation
+[ ] color-rendering
+[ ] cue-after
+[ ] cue-before
+[ ] cue
+[ ] dominant-baseline
+[ ] drop-initial-after-adjust
+[ ] drop-initial-after-align
+[ ] drop-initial-before-adjust
+[ ] drop-initial-before-align
+[ ] drop-initial-size
+[ ] drop-initial-value
+[ ] fill-opacity
+[ ] fill-rule
+[ ] fill
+[ ] flood-color
+[ ] flood-opacity
+[ ] font-kerning
+[ ] font-language-override
+[ ] font-synthesis
+[ ] font-variant-alternates
+[ ] font-variant-caps
+[ ] font-variant-east-asian
+[ ] font-variant-ligatures
+[ ] font-variant-numeric
+[ ] font-variant-position
+[ ] glyph-orientation-horizontal
+[ ] glyph-orientation-vertical
+[ ] grid-area
+[ ] grid-auto-columns
+[ ] grid-auto-flow
+[ ] grid-auto-rows
+[ ] grid-column-position
+[ ] grid-column-span
+[ ] grid-column
+[ ] grid-definition-columns
+[ ] grid-definition-rows
+[ ] grid-position
+[ ] grid-row-position
+[ ] grid-row-span
+[ ] grid-row
+[ ] grid-span
+[ ] grid-template
+[ ] icon
+[ ] image-orientation
+[ ] image-rendering
+[ ] image-resolution
+[ ] inline-box-align
+[ ] interpret-as
+[ ] isolation
+[ ] kerning-mode
+[ ] kerning-pair-threshold
+[ ] knock-out
+[ ] lighting-color
+[ ] line-box-contain
+[ ] line-feed-treatment
+[ ] line-grid-mode
+[ ] line-grid-progression
+[ ] line-grid
+[ ] line-slack
+[ ] line-snap
+[ ] link
+[ ] marker-end
+[ ] marker-mid
+[ ] marker-start
+[ ] marker
+[x] marquee-direction
+[x] marquee-speed
+[x] marquee-style
+[x] marquee
+[ ] mask-type
+[ ] max-font-size
+[ ] min-font-size
+[ ] mix-blend-mode
+[ ] mix-composite
+[ ] name
+[ ] nav-down
+[ ] nav-index
+[ ] nav-left
+[ ] nav-right
+[ ] nav-up
+[ ] object-position
+[ ] overflow-style
+[ ] pause-after
+[ ] pause-before
+[ ] pause
+[ ] phonemes
+[ ] punctuation-trim
+[ ] resize
+[ ] rest-after
+[ ] rest-before
+[ ] rest
+[ ] ruby-span
+[ ] shape-padding
+[ ] shape-rendering
+[ ] speak-as
+[ ] speak
+[ ] stop-color
+[ ] stop-opacity
+[ ] stroke-dasharray
+[ ] stroke-dashoffset
+[ ] stroke-linecap
+[ ] stroke-linejoin
+[ ] stroke-miterlimit
+[ ] stroke-opacity
+[ ] stroke-width
+[ ] stroke
+[ ] table-baseline
+[ ] text-anchor
+[ ] text-blink
+[ ] text-combine-horizontal
+[ ] text-combine
+[ ] text-height
+[ ] text-justify-trim
+[ ] text-line-through-color
+[ ] text-line-through-mode
+[ ] text-line-through-style
+[ ] text-line-through-width
+[ ] text-line-through
+[ ] text-orientation
+[ ] text-overline-color
+[ ] text-overline-mode
+[ ] text-overline-style
+[ ] text-overline-width
+[ ] text-overline
+[ ] text-script
+[ ] text-underline-color
+[ ] text-underline-mode
+[ ] unicode-range
+[ ] user-focus
+[ ] user-input
+[ ] user-modify
+[ ] vector-effect
+[ ] voice-balance
+[ ] voice-duration
+[ ] voice-family
+[ ] voice-pitch-range
+[ ] voice-pitch
+[ ] voice-rate
+[ ] voice-stress
+[ ] voice-volume
+[ ] white-space-treatment
+[ ] word-break-cjk
+[ ] word-break-inside
+
+
+** Events 
+- http://docs.webplatform.org/wiki/events
+
+Testable JavaScript has ch. 3 devoted to event-based architectures. 
+
+
+** Functions 
+
+- http://docs.webplatform.org/wiki/javascript/functions
+
+Some of the best examples here is in JavaScript Patterns (ch. 4).  Don't just
+indicate what Declarations vs. Expressions (+ named) are but indicate the
+differences: 
+
+- Hoisting 
+- Name reference 
+
+
+The example that was nice here was a callback pattern: dropping this
+to something useful is a good idea. 
+
+Testing functions in isolation isn't that useful: focus on UI work
+which has immediate feedback to people not reviewing specifications.
+However, when looking at the types of functions using Esprima actually
+might help: by seeing an application decomposed to an AST might be
+useful. 
+
+Focus on the practical impact of the following: 
+
+- Types of functions 
+- Execution 
+- Scope (and closures)
+
+Why does the closures example use the comma operator if that isn't the
+relevant example. 
+
+The cases should just pick a single style: function expressions seem
+like the cleaner form.  Compare code written in production 
+
+* Misc
+
+Talked with Greg Bulmash re: http://zen.coderdojo.com/dojo
