@@ -195,6 +195,7 @@ Look at validating the properties.
 - [ ] word-break-cjk
 - [ ] word-break-inside
 
+
 ** [#B] CSS: user-*
 
 http://docs.webplatform.org/wiki/css/properties/user-focus 
@@ -222,12 +223,34 @@ http://code.webplatform.org/gist/5842096
 Core specification suggest that this is just part of 
 
 http://www.w3.org/TR/2008/WD-css3-marquee-20080801/
+http://www.w3.org/TR/css3-marquee/
 
 There are several properties that need to be provided before the
 functionality is available.  In particular the overflow needs to be
 specified. 
 
 http://docs.webplatform.org/w/index.php?title=css/properties/overflow-x&action=formedit
+
+Other locations that provide examples: 
+
+- http://www.quackit.com/html/codes/html_marquee_code.cfm
+
+Difference from the specification: 
+- marquee-line | marquee-block are not associated with overflow-style
+  but only overflow 
+- scroll | slide | alternate : scroll vs. slide doesn't seem to work 
+
+Vendor prefix 
+
+*** autohiding-scrollbar
+http://msdn.microsoft.com/en-us/library/windows/apps/hh441298.aspx
+-ms-overflow-style: auto | none | scrollbar | -ms-autohiding-scrollbar
+
+*** overflow-wrap: break-word
+http://meyerweb.com/eric/css/tests/css3/show.php?p=overflow-wrap&-=-webkit-
+#p02 {text-wrap: avoid; -webkit-overflow-wrap: break-word;}
+
+
 
 ** CSS: column-fill
 

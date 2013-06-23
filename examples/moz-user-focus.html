@@ -1,20 +1,47 @@
 <head>
   <style>
-    .example {
-    -moz-user-focus: none;
-    /* it doesn't seem to working so we need some workaround */
-    -moz-user-select: none;
-    -moz-user-input: disabled;
+    .blurry {
+    /*
+    https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-user-input
+    */
+    -moz-user-input: disabled; /* none | enabled | disabled | inherit */
+    }
+
+    .unselectable { 
+    -moz-user-select: none; /* none | text | all | element */
     }
   </style>
+  <script src="log.js">
+  </script>
 </head>
 <body>
+  <h2>No selection on any pre text</h2>
+  <pre class="unselectable">
+    /*
+    https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-user-focus 
+    */
+    -moz-user-focus: ignore; /* ignore | normal */
+  </pre>
+  <h2>No focus on input 2</h2>
   <form>
-    <input type="text" onfocus="log('Focus on 1. object')" value="Press tab to focus" />
-    <input type="text" onfocus="log('Focus on 2. object')" class="example" value="This element cannot receive focus" />
-    <input type="text" onfocus="log('Focus on 3. object')"
-           value="Press tab to focus" />
+    <input id="i1" 
+           type="text" 
+           onfocus="log('onfocus 1')"
+           onblur="log('onblur 1')" 
+           value="focusable" />
+    <input id="i2" 
+           type="text" 
+           onfocus="log('onfocus 2')"
+           onblur="log('onblur 2')" 
+           class="blurry"
+           value="blurry" />
+    <input id="i3" 
+           type="text" 
+           onfocus="log('onfocus 3')" 
+           onblur="log('onblur 3')"
+           value="focusable" />
     <div id="out"></div>
-    <script src="out.js">
+    <script> 
+      document.getElementById('i1').focus();
     </script>
 </body>
